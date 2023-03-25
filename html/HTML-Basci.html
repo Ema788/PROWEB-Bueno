@@ -37,6 +37,10 @@
   </head>
 
   <style>
+              .grey-color {
+              background-color: #E7E9EB;
+              color: #000;
+          }
               element.style {
               position: relative;
               overflow: visible;
@@ -409,38 +413,52 @@
                     <section class="content">
                         <div class="container-fluid">
                             <div class="row">
-                                <!-- ./col -->
-                                <div class="col-md-12">
-                                    <h4 class="titleh4">¿Qué es un elemento HTML?</h4>
-                                    <p>HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera.</p>
-                                    <p>Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de final:</p>
-                                    <center>
-                                      <img src="../assets/img/img_cont/tag.png" alt="">
-                                    </center> 
-                                </div>
+                              <!-- ./col -->
+                              <div class="col-md-12">
+                                <h4 class="titleh4">¿Qué es un elemento HTML?</h4>
+                                  <p>HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera.</p>
+                                  <p>Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de final:</p>
+                                  <center>
+                                    <img src="../assets/img/img_cont/tag.png" alt="">
+                                  </center> 
+                              </div>
                             </div>
                             <br>
-                              <div class="col-md-12">
-                                <br>
-                                  <h4 class="titleh4">Documentos HTML</h4>
-                                  <p>Todos los documentos <b>HTML</b> deben comenzar con una declaración de tipo de documento: <code class="w3-codespan">&lt;!DOCTYPE html&gt;</code><br>
-                                  El documento <b>HTML</b> en sí comienza con <code class="w3-codespan">&lt;html&gt;</code> y termina con <code class="w3-codespan">&lt;/html&gt;</code>.<br>
-                                  La parte visible del documento <b>HTML</b> está entre <code class="w3-codespan">&lt;body&gt;</code> y <code class="w3-codespan">/body&gt;</code>.</p> 
-                              </div>
+
+                            <!-- Documentos HTML-->
+                            <div class="col-md-12">
                               <br>
-                              <div class="col-md-12">
-                                
-                                <br>
+                              <h4 class="titleh4">Documentos HTML</h4>
+                                <p>Todos los documentos <b>HTML</b> deben comenzar con una declaración de tipo de documento: <code class="w3-codespan">&lt;!DOCTYPE html&gt;</code><br>
+                                El documento <b>HTML</b> en sí comienza con <code class="w3-codespan">&lt;html&gt;</code> y termina con <code class="w3-codespan">&lt;/html&gt;</code>.<br>
+                                La parte visible del documento <b>HTML</b> está entre <code class="w3-codespan">&lt;body&gt;</code> y <code class="w3-codespan">/body&gt;</code>.</p> 
+                            </div>
+                            <div class="w3-hide-small grey-color w3-card-2 w3-round" style="padding:16px;">
+                              <h3>HTML Example:</h3>
+                                <div class="w3-code htmlHigh notranslate green-border" style="height:250px">
+                                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>title<span class="tagcolor" style="color:mediumblue">&gt;</span></span>HTML Tutorial<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/title<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+                                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a heading<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a paragraph.<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+                                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                                </div>
+                            </div>  
+
+                            <div class="col-md-12">
+                              <br>
                                   <h4 class="titleh4">Enlaces HTML</h4>
                                   <div class="row">
-                                    <div class="col-sm-6">
+                                    <div class="col-sm-5">
                                       <p>Los enlaces HTML se definen con el <code class="w3-codespan">&lt;a&gt;</code> etiqueta. Es una etiqueta que nos ayuda a poder crear un enlace a una página web. El atributo principal de la etiqueta HTML es href. <br>
                                         Los <code class="w3-codespan">href</code> atributo especifica la URL de la página</p>
                                     </div>
-                                    <div class="col-sm-6">
-                                      <div class="w3-hide-small grey-color w3-card-2 w3-round" style="padding:16px;">
-                                        <h3>Ejemplo</h3>
-                                          <div class="w3-code htmlHigh notranslate green-border" style="height:300px">
+                                    <div class="col-sm-7">
+                                      <div class="w3-hide-small grey-color w3-card-2 w3-round" style="padding:10px;">
+                                        <h5>Ejemplo</h5>
+                                          <div class="w3-code htmlHigh notranslate green-border" style="height:70px">
                                             <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
                                             <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>a href= ”https://www.nombredelaweb.com/” target=”_blank”<span class="tagcolor" style="color:mediumblue">&gt;</span></span>Esto es un enlace<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/a<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
                                             <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
@@ -448,8 +466,6 @@
                                       </div>
                                     </div>
                                   </div>
-                                  <p><i>Ejemplo</i></p>
-                                  <p>< a href= ”https://www.nombredelaweb.com/” target=”_blank” >aquí< /a ></p>
                               </div>
 
                               <div class="col-md-12">

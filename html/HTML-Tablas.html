@@ -34,6 +34,28 @@
         <link rel="stylesheet" href="../assets/vendor/libs/apex-charts/apex-charts.css" />
         <script src="../assets/vendor/js/helpers.js"></script>
         <script src="../assets/js/config.js"></script>
+        <style>
+          table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+          }
+
+          p{
+            text-align: justify;
+          }
+  
+          td,
+          th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+          }
+  
+          tr:nth-child(even) {
+              background-color: #dddddd;
+          }
+      </style>
     </head>
 
   <body>
@@ -339,11 +361,55 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Tables /</span> Basic Tables</h4>
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML /</span> Tablas Basicas</h4>
                 
+              <div class="col-sm-12 col-lg-12 mb-4">
+                <div class="card text">
+                  <div class="card-body">
+                    <h3 class="titleh4">¿Qué son?</h3>
+                    <p>Las tablas HTML permiten a los desarrolladores web organizar los datos en filas y columnas, 
+                      Las tablas se definen con el < table > </p>
+                      <ul>
+                      <li>Las tablas se dividen en filas de la tabla con el < tr > etiqueta.</li>
+                      <li>Las filas se dividen en datos de la tabla con la < td > etiqueta.</li>
+                      <li>Una fila de la tabla también se puede dividir en encabezados de la tabla con el <th> etiqueta.</li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+
+            <div class="row mb-12">
+              <div class="col-sm-6 col-lg-6 mb-4">
+                <div class="card text">
+                  <div class="card-body">
+                    <h5 class="titleh4">Tabla con atributo border</h5>
+                    <p>Si no se especifica un borde de la mesa, se mostrará sin fronteras, Un borde se puede agregar utilizando la border atributo:</p>
+                    <p>Para añadir bordes, utilice la propiedad  <strong>border CSS</strong></p>
+                    <h5 class="titleh4">Tabla con bordes cerrados</h5>
+                    <p>Si desea que las fronteras se colapsen en una frontera, añadir CSS border-collapse :</p>
+                    <p>Ejemplo</p>
+                    <p><strong>
+                      table, th, td {
+                        border: 1px solid black;
+                        border-collapse: collapse;
+                    }</strong>
+                    </p>
+                    <p style="color: red;">La border atributo es en su salida del estándar HTML! Es mejor usar CSS.</p>
+                  </div>
+                </div>
+              </div> 
+
+              <div class="col-md-6 col-lg-6 mb-3">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <img class="img-fluid" src="../assets/img/img_cont/tablas.JPG" alt="Card image cap" />
+                  </div>
+                </div>
+              </div>
+              
               <!-- Striped Rows -->
               <div class="card">
-                <h5 class="card-header">Striped rows</h5>
+                <h5 class="card-header">Tablas</h5>
                 <div class="table-responsive text-nowrap">
                   <table class="table table-striped">
                     <thead>

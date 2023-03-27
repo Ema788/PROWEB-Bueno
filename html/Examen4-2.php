@@ -358,10 +358,10 @@
                             <label for="exampleInputEmail1"><h3>Observa lo siguiente:</h3></label><br>
                             <h3>
                             <pre class="lang:default decode:true">
-&lt;img src="scream.png" ?????="250" height="400"&gt;
+&lt;p ?????=?????:????;">This is a paragraph.&lt;/p&gt;
                             </pre>
                             </h3>
-                            <h3><label for="">Usa los atributos de imagen HTML para establecer el tamaño de la imagen en 250 píxeles de ancho y 400 píxeles de alto:</label></h3>
+                            <h3><label for="">Usa el atributo HTML y CSS correctos para establecer el color del párrafo en "azul":</label></h3>
                             <input type="text" name="etiquetah1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Etiqueta">
                           </div>
                           <button type="submit" class="btn btn-primary">Enviar respuesta</button>
@@ -370,7 +370,7 @@
                         <?php
                           if(isset($_POST['etiquetah1'])){
                             $etiquetah1 = $_POST['etiquetah1'];
-                            if($etiquetah1 == "width"){
+                            if($etiquetah1 == 'style:"color=blue;"'){
                               echo "Respuesta correcta";
                             }else{
                               echo "Respuesta incorrecta";

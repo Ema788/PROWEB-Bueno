@@ -132,7 +132,7 @@
             </li>
 
             <!-- Curso Atributos -->
-            <li class="menu-item active open">
+            <li class="menu-item ">
               <a href="HTML-Imagenes.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-photo-album"></i>
                 <div data-i18n="Misc">HTML Imagenes</div>
@@ -143,7 +143,7 @@
                     <div data-i18n="Error">Examen 1</div>
                   </a>
                 </li>
-                <li class="menu-item active">
+                <li class="menu-item">
                   <a href="./Examen3-2.php" class="menu-link">
                     <div data-i18n="Under Maintenance">Examen 2</div>
                   </a>
@@ -152,20 +152,20 @@
             </li>
 
             <!-- Curso Estilos -->
-            <li class="menu-item">
+            <li class="menu-item active open">
               <a href="HTML-EstilosCSS.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bxs-file-css"></i>
                 <div data-i18n="Misc">HTML Estilos</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="pages-misc-error.html" class="menu-link">
-                    <div data-i18n="Error">Error</div>
+                  <a href="./Examen4-Estilos.html" class="menu-link">
+                    <div data-i18n="Error">Examen 1</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="pages-misc-under-maintenance.html" class="menu-link">
-                    <div data-i18n="Under Maintenance">Under Maintenance</div>
+                <li class="menu-item active ">
+                  <a href="./Examen4-2.php" class="menu-link">
+                    <div data-i18n="Under Maintenance">Examen 2</div>
                   </a>
                 </li>
               </ul>
@@ -330,21 +330,21 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML Basico / Imagenes / </span> Examen 2</h4>
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML Basico / Estilos / </span> Examen 2</h4>
 
               <div class="row">
                 <div class="col-md-12">
                   <ul class="nav nav-pills flex-column flex-md-row mb-3">
                     <li class="nav-item">
-                      <a class="nav-link" href="./HTML-Basci.html"><i class="bx bxs-file-html"></i> Introducción</a>
+                      <a class="nav-link" href="./HTML-EstilosCSS.html"><i class="bx bxs-file-html"></i> Introducción</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link " href="./Examen3-Imagenes.html"
+                      <a class="nav-link " href="./Examen4-Estilos.html"
                         ><i class="bx bx-book-content me-1"></i> Examen 1</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" href="./Examen2-2-Atributos.php"
+                      <a class="nav-link active" href="./Examen4-2.php"
                       ><i class="bx bx-book-content me-1"></i> Examen 2</a
                       >
                     </li>

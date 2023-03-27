@@ -1,44 +1,61 @@
 <!DOCTYPE html>
-<html
-    lang="en"
-    class="light-style layout-menu-fixed"
-    dir="ltr"
-    data-theme="theme-default"
-    data-assets-path="../assets/"
-    data-template="vertical-menu-template-free"
-    >
-    <head>
-        <meta charset="utf-8" />
-        <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
-        />
-        <!-- Titulo -->
-        <title>PROWEB</title>
+<html lang="en" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="../assets/"
+    data-template="vertical-menu-template-free">
 
-        <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="../assets/img/icons/unicons/Circulo_cromatico.svg.png" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <!-- Titulo -->
+    <title>PROWEB</title>
 
-        <meta name="description" content="" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/icons/unicons/Circulo_cromatico.svg.png" />
+
+    <meta name="description" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
         href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet"
-        />
-        <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
-        <link rel="stylesheet" href="../assets/vendor/css/core.css" class="template-customizer-core-css" />
-        <link rel="stylesheet" href="../assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
-        <link rel="stylesheet" href="../assets/css/demo.css" />
-        <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
-        <link rel="stylesheet" href="../assets/vendor/libs/apex-charts/apex-charts.css" />
-        <script src="../assets/vendor/js/helpers.js"></script>
-        <script src="../assets/js/config.js"></script>
-    </head>
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="../assets/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../assets/css/demo.css" />
+    <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="../assets/vendor/libs/apex-charts/apex-charts.css" />
+    <script src="../assets/vendor/js/helpers.js"></script>
+    <script src="../assets/js/config.js"></script>
 
-    <body>
-        <!-- Layout wrapper -->
-        <div class="layout-wrapper layout-content-navbar">
+    <style>
+        p {
+            text-align: justify;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            text-align: justify;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            text-align: justify;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Layout wrapper -->
+    <div class="layout-wrapper layout-content-navbar">
         <div class="layout-container">
             <!-- Menu -->
             <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
@@ -77,12 +94,204 @@
                     <li class="menu-item">
                     <a href="Examen1-Basci.html" class="menu-link">
                         <div data-i18n="Notifications">Examen 1</div>
+                <div class="app-brand demo">
+                    <a href="index.html" class="app-brand-link">
+                        <img src="../assets/img/icons/unicons/Circulo_cromatico.svg.png" alt
+                            class="w-px-40 h-auto rounded-circle" />
+                        <span class="app-brand-text demo fw-bolder ms-2">PROWEB</span>
                     </a>
-                    </li>
+
+                    <a href="javascript:void(0);"
+                        class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+                        <i class="bx bx-chevron-left bx-sm align-middle"></i>
+                    </a>
+                </div>
+
+                <div class="menu-inner-shadow"></div>
+
+                <ul class="menu-inner py-1">
+                    <!-- Dashboard -->
                     <li class="menu-item">
-                    <a href="pages-account-settings-connections.html" class="menu-link">
-                        <div data-i18n="Connections">Examen 2</div>
-                    </a>
+                        <a href="index.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                            <div data-i18n="Analytics">Inicio</div>
+                        </a>
+                    </li>
+
+                    <!-- Layouts -->
+                    <li class="menu-item">
+                        <a href="contactanos.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-envelope"></i>
+                            <div data-i18n="Layouts">Contactanos</div>
+                        </a>
+                    </li>
+                    <li class="menu-header small text-uppercase">
+                        <span class="menu-header-text">Curso Básico</span>
+                    </li>
+                    <!-- HTML Basic -->
+                    <li class="menu-item">
+                        <a href="HTML-Basci.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                            <div data-i18n="Account Settings">HTML Básico</div>
+                        </a>
+                        <ul class="menu-sub">
+                            <li class="menu-item">
+                                <a href="Examen1-Basci.html" class="menu-link">
+                                    <div data-i18n="Notifications">Examen 1</div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="pages-account-settings-connections.html" class="menu-link">
+                                    <div data-i18n="Connections">Examen 2</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Curso Atributos -->
+                    <li class="menu-item">
+                        <a href="HTML-Atributos.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-message-square-edit"></i>
+                            <div data-i18n="Misc">HTML Atributos</div>
+                        </a>
+                        <ul class="menu-sub">
+                            <li class="menu-item">
+                                <a href="HTML-Atributos.html" class="menu-link">
+                                    <div data-i18n="Error">Atributos</div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="pages-misc-under-maintenance.html" class="menu-link">
+                                    <div data-i18n="Under Maintenance">Examen 1</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Curso Atributos -->
+                    <li class="menu-item">
+                        <a href="HTML-Imagenes.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-photo-album"></i>
+                            <div data-i18n="Misc">HTML Imagenes</div>
+                        </a>
+                        <ul class="menu-sub">
+                            <li class="menu-item">
+                                <a href="HTML-Atributos.html" class="menu-link">
+                                    <div data-i18n="Error">Atributos</div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="pages-misc-under-maintenance.html" class="menu-link">
+                                    <div data-i18n="Under Maintenance">Examen 1</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Curso Estilos -->
+                    <li class="menu-item">
+                        <a href="HTML-EstilosCSS.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bxs-file-css"></i>
+                            <div data-i18n="Misc">HTML Estilos-CSS</div>
+                        </a>
+                        <ul class="menu-sub">
+                            <li class="menu-item">
+                                <a href="pages-misc-error.html" class="menu-link">
+                                    <div data-i18n="Error">Error</div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="pages-misc-under-maintenance.html" class="menu-link">
+                                    <div data-i18n="Under Maintenance">Under Maintenance</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Curso Tablas -->
+                    <li class="menu-item">
+                        <a href="HTML-Tablas.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-table"></i>
+                            <div data-i18n="Misc">HTML Tablas</div>
+                        </a>
+                        <ul class="menu-sub">
+                            <li class="menu-item">
+                                <a href="pages-misc-error.html" class="menu-link">
+                                    <div data-i18n="Error">Error</div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="pages-misc-under-maintenance.html" class="menu-link">
+                                    <div data-i18n="Under Maintenance">Under Maintenance</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Components -->
+                    <li class="menu-header small text-uppercase"><span class="menu-header-text">MEDIA</span></li>
+
+                    <!-- HTML Media -->
+                    <li class="menu-item active open">
+                        <a href="HTML-Media.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bxs-videos"></i>
+                            <div data-i18n="Basic">HTML Media</div>
+                        </a>
+                    </li>
+
+                    <!-- HTML Video -->
+                    <li class="menu-item">
+                        <a href="HTML-Video.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-video"></i>
+                            <div data-i18n="User interface">HTML Video</div>
+                        </a>
+                        </a>
+                        <ul class="menu-sub">
+                            <li class="menu-item">
+                                <a href="pages-misc-error.html" class="menu-link">
+                                    <div data-i18n="Error">Error</div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="pages-misc-under-maintenance.html" class="menu-link">
+                                    <div data-i18n="Under Maintenance">Under Maintenance</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--HTML Audio -->
+                    <li class="menu-item">
+                        <a href="HTML-Audio.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bxs-music "></i>
+                            <div data-i18n="Extended UI">HTML Audio</div>
+                        </a>
+                        </a>
+                        <ul class="menu-sub">
+                            <li class="menu-item">
+                                <a href="pages-misc-error.html" class="menu-link">
+                                    <div data-i18n="Error">Error</div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="pages-misc-under-maintenance.html" class="menu-link">
+                                    <div data-i18n="Under Maintenance">Under Maintenance</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--HTML Youtube -->
+                        <ul class="menu-sub">
+                            <li class="menu-item">
+                                <a href="pages-misc-error.html" class="menu-link">
+                                    <div data-i18n="Error">Error</div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="pages-misc-under-maintenance.html" class="menu-link">
+                                    <div data-i18n="Under Maintenance">Under Maintenance</div>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
                 </li>
@@ -260,8 +469,9 @@
 
             <!-- Layout container -->
             <div class="layout-page">
-            <!-- Navbar -->
-                <nav class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
+                <!-- Navbar -->
+                <nav class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
+                    id="layout-navbar">
                     <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
                     <ul class="navbar-nav flex-row align-items-center ms-auto">
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -285,106 +495,193 @@
                     </ul>
                     </div>
                 </nav>
-            <!-- / Navbar -->
+                <!-- / Navbar -->
 
-            <!-- Content wrapper -->
-            <div class="content-wrapper">
-                <!-- Content -->
+                <!-- Content wrapper -->
+                <div class="content-wrapper">
+                    <!-- Content -->
 
-                <div class="container-xxl flex-grow-1 container-p-y">
-                    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML Media /</span> Introducción</h4>
+                    <div class="container-xxl flex-grow-1 container-p-y">
+                        <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML Multimedia /</span>
+                            Introducción</h4>
 
-                <div class="row">
-                    <div class="col-md-12">
-                    <ul class="nav nav-pills flex-column flex-md-row mb-3">
-                        <li class="nav-item">
-                        <a class="nav-link active" href="./HTML-Basci.html"><i class="bx bxs-file-html"></i> Introducción</a>
-                        </li>
-                    </ul>
-                    <div class="card mb-4">
-                        <div class="card-body">
-                        <div class="col-md-4">
-                            <br>
-                            <h3><strong>INTRODUCCIÓN A HTML</strong></h3>
-                        </div><!-- /.col -->
-                        <section class="content">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <!-- ./col -->
-                                    <div class="col-md-12">
-                                        <h4>¿Qué es un elemento HTML?</h4>
-                                        <p>HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera.</p>
-                                        <p>Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de final:</p>
-                                        <center>
-                                        <img src="../assets/img/Img_Contenido/tag.png" alt="">
-                                        </center> 
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="nav nav-pills flex-column flex-md-row mb-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="./HTML-Basci.html"><i
+                                                class="bx bxs-file-html"></i> Introducción</a>
+                                    </li>
+                                </ul>
+                                <div class="card mb-4">
+                                    <div class="card-body">
+                                        <div class="col-md-4">
+                                            <br>
+                                            <h3><strong>Multimedia HTML</strong></h3>
+                                        </div><!-- /.col -->
+                                        <section class="content">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <!-- ./col -->
+                                                    <div class="col-md-12">
+                                                        <h3 class="titleh4">Introducción</h3>
+                                                        <p>Multimedia es un término que procede de la lengua inglesa y hace referencia a aquello que utiliza varios medios de manera simultánea en la transmisión de información. Una presentación multimedia, por lo tanto, puede incluir fotografías, vídeos, sonidos y texto.</p>
+                                                        <p>Las páginas web también pueden presentar desarrollos multimedia, con animaciones en HTML5, vídeos insertados, por ejemplo desde YouTube, música de fondo y material para leer</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <h4>Imagenes de contenido</h4>
+                                                    <p> proporcionan información y complementan la información textual</p>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <h4>Imagens de adorno</h4>
+                                                    <p>se utilizan para hacer bordes redondeados, iconos en las listas de elementos, mostrar fondos de página</p>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <h4> Etiqueta <code class="w3-codespan">&lt;picture&gt;</code> y <code class="w3-codespan">/picture&gt;</code></h4>
+                                                    <p>Agrupa una serie de imágenes. Etiqueta contenedora.</p>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <h4>Etiqueta <code class="w3-codespan">&lt;source&gt;</code></h4>
+                                                    <p>Mostrará la imagen que cumpla una serie de criterios opcionales.</p>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <br>
+                                                    <h4 class="titleh4">Operadores Logicos</h4>
+                                                    <p>Se pueden redactar consultas utilizando operadores lógicos,
+                                                        incluyendo not, and, y only.</p>
+                                                    <p>El operador andes usado para colocar juntas multiples funciones
+                                                        multimedia. Un query básico con el tipo de medio especificado
+                                                        como allpuede lucir así:</p>
+                                                    <img class="img-fluid" src="../assets/img/img_cont/all.JPG"
+                                                        alt="Card image cap" />
+                                                    <p>Si usted quiere aplicar esa consulta solo si la pantalla esta en
+                                                        formato horizontal, usted puede utilizar el operador andy
+                                                        colocar la siguiente cadena:</p>
+                                                    <img class="img-fluid" src="../assets/img/img_cont/and.JPG"
+                                                        alt="Card image cap" />
+                                                </div>
+                                                <br>
+                                                <div class="col-md-12">
+                                                    <h4 class="titleh4">Funciones Multimedia</h4>
+                                                    <p>La mayoría de las funciones multimedia pueden ser precedidas por
+                                                        "min-" o "max-" para expresar "mayor o igual a" o "menor o igual
+                                                        a". Esto elimina la necesidad de usar los símbolos "<" y ">" los
+                                                            cuales podrían causar conflictos con HTML y XML.</p>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <table>
+                                                        <tr>
+                                                            <th>Atributo</th>
+                                                            <th>Valor</th>
+                                                            <th>Descripcion</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>src</td>
+                                                            <td>Dirección URL</td>
+                                                            <td>Video a reproducir. Obligatoria si actúa como etiqueta contenedora.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>poster</td>
+                                                            <td>Direccion URL</td>
+                                                            <td>Muestra una imagen a modo de presentación.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>preload</td>
+                                                            <td>auto | metadata | none</td>
+                                                            <td>Indica como realizar la precarga del vídeo.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>controls</td>
+                                                            <td>---</td>
+                                                            <td>Muestra los controles de reproducción.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>width</td>
+                                                            <td>tamaño</td>
+                                                            <td>Indica el tamaño de ancho del vídeo</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>height</td>
+                                                            <td>tamaño</td>
+                                                            <td>Indica el tamaño de alto del vídeo./td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Mediagroup</td>
+                                                            <td>nombre</td>
+                                                            <td>Establece un nombre para un grupo de contenidos multimedia.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>autoplay</td>
+                                                            <td>---</td>
+                                                            <td>Comienza a reproducir el vídeo automáticamente.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>loop</td>
+                                                            <td>---</td>
+                                                            <td>Vuelve a iniciar el vídeo cuando finaliza su reproducción.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>muted</td>
+                                                            <td>--</td>
+                                                            <td>Establece el vídeo sin sonido.</td>
+                                                        </tr>
+                                                    </table>
+                                                    <br>
+                                                    <div class="col-md-12">
+                                                        <h4 class="titleh4">Atributos descripción</h4>
+                                                            <table>
+                                                                <tr>
+                                                                    <th>Atributo</th>
+                                                                    <th>Descripcion</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>srcset</td>
+                                                                    <td>Serie de imágenes (separadas por coma) que se utilizarán. Obligatorio.</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>sizes</td>
+                                                                    <td>Tamaño específico de la imagen que finalmente se mostrará.</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>media</td>
+                                                                    <td>Condición que se debe cumplir para que muestre la imagen.</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>type</td>
+                                                                    <td>Tipo de formato de imagen. Opcional.</td>
+                                                                </tr>
+                                                            </table>
+                                                    </div>
+
+                                                    <div class="col-md-12">
+                                                        <h4 class="titleh4">Etiquetas Modo Avanzado</h4>
+                                                        <table>
+                                                            <tr>
+                                                                <th>Atributo</th>
+                                                                <th>Valor</th>
+                                                                <th>Descripcion</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>source</td>
+                                                                <td> src, type </td>
+                                                                <td>Establece un archivo de audio o lo añade como alternativa.</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>track</td>
+                                                                <td>src, srclang, label, kind, default</td>
+                                                                <td>Establece un archivo de subtítulos o lo añade como alternativa.</td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+
+                                                </div>
+                                        </section>
                                     </div>
                                 </div>
-                                <br>
-                                <div class="col-md-12">
-                                    <br>
-                                    <h2>Documentos HTML</h2>
-                                    <p>Todos los documentos <b>HTML</b> deben comenzar con una declaración de tipo de documento: <code class="w3-codespan">&lt;!DOCTYPE html&gt;</code><br>
-                                    El documento <b>HTML</b> en sí comienza con <code class="w3-codespan">&lt;html&gt;</code> y termina con <code class="w3-codespan">&lt;/html&gt;</code>.<br>
-                                    La parte visible del documento <b>HTML</b> está entre <code class="w3-codespan">&lt;body&gt;</code> y <code class="w3-codespan">/body&gt;</code>.</p> 
-                                </div>
-                                <br>
-                                <div class="col-md-12">
-                                    <br>
-                                    <h4>Enlaces HTML</h4>
-                                    <p>Los enlaces HTML se definen con el <code class="w3-codespan">&lt;a&gt;</code> etiqueta. Es una etiqueta que nos ayuda a poder crear un enlace a una página web. El atributo principal de la etiqueta HTML es href. <br>
-                                        Los <code class="w3-codespan">href</code> atributo especifica la URL de la página</p>
-                                    <p><i>Ejemplo</i></p>
-                                    <p>< a href= ”https://www.nombredelaweb.com/” target=”_blank” >aquí< /a ></p>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <br>
-                                        <h4>El atributo de estilo</h4>
-                                        <p>Los <code class="w3-codespan">style</code> atributo se usa para agregar estilos a un elemento, como color, fuente, tamaño y más.</p>
-                                </div> 
-
-                                <div class="col-md-12">
-                                    <br>
-                                    <h4>Encabezados HTML</h4>
-                                    <p>Los encabezados HTML se definen con el <code class="w3-codespan">&lt;h1&gt;</code> a <code class="w3-codespan">&lt;6&gt;</code> etiquetas.<br>
-                                    <code class="w3-codespan">&lt;h1&gt;</code> define el encabezado más importante. <code class="w3-codespan">&lt;h6&gt;</code> define lo menos importante rumbo: 
-                                    </p>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <br>
-                                    <h4>Elementos HTML vacíos</h4>
-                                    <p>Los elementos HTML sin contenido se denominan elementos vacíos. Los <code class="w3-codespan">&lt;br&gt;</code> la etiqueta define un salto de línea, y es un elemento vacío sin una etiqueta de cierreCon esta etiqueta HTML le podemos decir al navegador que viene un salto de línea. Nos sirve para hacer el texto más leíble.</p>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <h4>Imágenes HTML</h4>
-                                    <p>Usamos la etiqueta IMG para mostrar imágenes dentro del contenido. Necesita el atributo src para funcionar, ya que será donde indicaremos desde donde tiene que mostrar la imagen.<br>
-                                    Las imágenes HTML se definen con el <code class="w3-codespan">&lt;img&gt;</code> etiqueta.<br>
-                                    El archivo fuente <code class="w3-codespan">(src)</code>, texto alternativo <code class="w3-codespan">(alt)</code>, <code class="w3-codespan">(width)</code>, y <code class="w3-codespan">(height)</code> se proporcionan como atributos:
-                                    </p>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <h4>Párrafos HTML</h4>
-                                    <p>Los párrafos HTML se definen con la etiqueta <code class="w3-codespan">&lt;p&gt;</code></p>
-                                </div>
-
-                                <div class="col-md-12">
-                                <h4>Navegadores Web</h4>
-                                    <p>El propósito de un navegador web (Chrome, Edge, Firefox, Safari) es leer documentos HTML y mostrarlos. correctamente.</p>
-                                    <p>Un navegador no muestra las etiquetas HTML, sino que las utiliza para determinar cómo mostrar el documento:</p>
-                                    <img src="./resources/images/tag.png" alt="">
-                                </div>
-
                             </div>
-                        </section>
                         </div>
                     </div>
-                    </div>
-                </div>
-                </div>
 
 <!-- Footer -->
 <footer class="content-footer footer bg-footer-theme">
@@ -402,15 +699,16 @@
             </div>
         </div>
         <div class="layout-overlay layout-menu-toggle"></div>
-        </div>
-        <!-- Core JS -->
-        <script src="../assets/vendor/libs/jquery/jquery.js"></script>
-        <script src="../assets/vendor/libs/popper/popper.js"></script>
-        <script src="../assets/vendor/js/bootstrap.js"></script>
-        <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
-        <script src="../assets/vendor/js/menu.js"></script>
-        <script src="../assets/js/main.js"></script>
-        <script src="../assets/js/pages-account-settings-account.js"></script>
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
-    </body>
+    </div>
+    <!-- Core JS -->
+    <script src="../assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../assets/vendor/libs/popper/popper.js"></script>
+    <script src="../assets/vendor/js/bootstrap.js"></script>
+    <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="../assets/vendor/js/menu.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/pages-account-settings-account.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+
 </html>

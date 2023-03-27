@@ -34,6 +34,29 @@
         <link rel="stylesheet" href="../assets/vendor/libs/apex-charts/apex-charts.css" />
         <script src="../assets/vendor/js/helpers.js"></script>
         <script src="../assets/js/config.js"></script>
+        <style>
+            p{
+                text-align: justify;
+            }
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+                text-align: justify;
+            }
+
+            td,
+            th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            text-align: justify;
+            }
+
+            tr:nth-child(even) {
+            background-color: #dddddd;
+            }
+        </style>
     </head>
 
     <body>
@@ -130,7 +153,7 @@
                 <li class="menu-item">
                 <a href="HTML-EstilosCSS.html" class="menu-link">
                     <i class="menu-icon tf-icons bx bxs-file-css"></i>
-                    <div data-i18n="Misc">HTML Estilos-CS</div>
+                    <div data-i18n="Misc">HTML Estilos-CSS</div>
                 </a>
                 <ul class="menu-sub">
                     <li class="menu-item">
@@ -190,23 +213,10 @@
 
                 <!-- HTML Video -->
                 <li class="menu-item active open">
-                <a href="HTML-Video.html" class="menu-link">
+                    <a href="HTML-Video.html" class="menu-link">
                     <i class="menu-icon tf-icons bx bx-video"></i>
                     <div data-i18n="User interface">HTML Video</div>
-                </a>
-                </a>
-                <ul class="menu-sub">
-                    <li class="menu-item">
-                        <a href="Examen6-Video.html" class="menu-link">
-                        <div data-i18n="Notifications">Examen 1</div>
-                        </a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="pages-account-settings-connections.html" class="menu-link">
-                        <div data-i18n="Connections">Examen 2</div>
                     </a>
-                    </li>
-                </ul>
                 </li>
 
                 <!--HTML Audio -->
@@ -231,12 +241,6 @@
                 </li>
 
                 <!--HTML Youtube -->
-                <li class="menu-item">
-                <a href="HTML-Youtube.html" class="menu-link">
-                    <i class="menu-icon tf-icons bx bxl-youtube"></i>
-                    <div data-i18n="Boxicons">HTML Youtube</div>
-                </a>
-                </a>
                 <ul class="menu-sub">
                     <li class="menu-item">
                     <a href="pages-misc-error.html" class="menu-link">
@@ -303,7 +307,7 @@
                 <!-- Content -->
 
                 <div class="container-xxl flex-grow-1 container-p-y">
-                    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML Media /</span> Video</h4>
+                <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML Videos /</span> Introduccion</h4>
 
                 <div class="row">
                     <div class="col-md-12">
@@ -311,94 +315,63 @@
                         <li class="nav-item">
                         <a class="nav-link active" href="./HTML-Basci.html"><i class="bx bxs-file-html"></i> Introducción</a>
                         </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="Examen6-Video.html"
-                            ><i class="bx bx-book-content me-1"></i> Examen 1</a
-                        >
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="pages-account-settings-connections.html"
-                        ><i class="bx bx-book-content me-1"></i> Examen 2</a
-                        >
-                        </li>
                     </ul>
                     <div class="card mb-4">
                         <div class="card-body">
                         <div class="col-md-4">
                             <br>
-                            <h3><strong>INTRODUCCIÓN A HTML</strong></h3>
+                            <h3><strong>Videos en HTML</strong></h3>
                         </div><!-- /.col -->
                         <section class="content">
                             <div class="container-fluid">
                                 <div class="row">
                                     <!-- ./col -->
                                     <div class="col-md-12">
-                                        <h4>¿Qué es un elemento HTML?</h4>
-                                        <p>HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera.</p>
-                                        <p>Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de final:</p>
-                                        <center>
-                                        <img src="../assets/img/Img_Contenido/tag.png" alt="">
-                                        </center> 
+                                        <h4>¿Como Funciona?</h4>
+                                        <p>El <code class="w3-codespan">&lt;controls&gt;</code> atributo agrega controles de video, como reproducción, pausa y volumen.</p>
+                                        <p>Es una buena idea incluir siempre <code class="w3-codespan">&lt;width&gt;</code> y <code class="w3-codespan">&lt;height&gt;</code> atributos. Si no se configuran la altura y el ancho, la página puede parpadear mientras se carga el video.</p>
+                                        <p>El <code class="w3-codespan">&lt;source&gt;</code>elemento le permite especificar archivos de video alternativos que el navegador puede elegir. El navegador utilizará el primer formato reconocido.</p>
+                                        El texto entre las etiquetas <code class="w3-codespan">&lt;video&gt;</code> y <code class="w3-codespan">&lt;/video&gt;</code>solo se mostrará en navegadores que no admitan el < video > elemento.
                                     </div>
                                 </div>
                                 <br>
                                 <div class="col-md-12">
                                     <br>
-                                    <h2>Documentos HTML</h2>
-                                    <p>Todos los documentos <b>HTML</b> deben comenzar con una declaración de tipo de documento: <code class="w3-codespan">&lt;!DOCTYPE html&gt;</code><br>
-                                    El documento <b>HTML</b> en sí comienza con <code class="w3-codespan">&lt;html&gt;</code> y termina con <code class="w3-codespan">&lt;/html&gt;</code>.<br>
-                                    La parte visible del documento <b>HTML</b> está entre <code class="w3-codespan">&lt;body&gt;</code> y <code class="w3-codespan">/body&gt;</code>.</p> 
+                                    <h4>Reproduccion automática</h4>
+                                    <p>Para iniciar un video automáticamente, use el <code class="w3-codespan">&lt;autoplay&gt;</code> atributo</p> 
+                                    <img src="../assets/img/img_cont/autoplay.jpg" alt="">
                                 </div>
                                 <br>
                                 <div class="col-md-12">
                                     <br>
-                                    <h4>Enlaces HTML</h4>
-                                    <p>Los enlaces HTML se definen con el <code class="w3-codespan">&lt;a&gt;</code> etiqueta. Es una etiqueta que nos ayuda a poder crear un enlace a una página web. El atributo principal de la etiqueta HTML es href. <br>
-                                        Los <code class="w3-codespan">href</code> atributo especifica la URL de la página</p>
-                                    <p><i>Ejemplo</i></p>
-                                    <p>< a href= ”https://www.nombredelaweb.com/” target=”_blank” >aquí< /a ></p>
+                                    <h4>Vídeo HTML: métodos, propiedades y eventos</h4>
+                                    <p>El HTML DOM define métodos, propiedades y eventos para el < video > elemento.
+                                        Esto le permite cargar, reproducir y pausar videos, así como configurar la duración y el volumen
+                                        También hay eventos DOM que pueden notificarle cuando un video comienza a reproducirse, se detiene, etc</p>
                                 </div>
 
                                 <div class="col-md-12">
                                     <br>
-                                        <h4>El atributo de estilo</h4>
-                                        <p>Los <code class="w3-codespan">style</code> atributo se usa para agregar estilos a un elemento, como color, fuente, tamaño y más.</p>
+                                        <h4>Etiquetas de vídeo HTML</h4>
+                                        <table>
+                                            <tr>
+                                                <th>Atributo</th>
+                                                <th>Descripcion</th>
+                                            </tr>
+                                            <tr>
+                                                <td>video</td>
+                                                <td>Define un video o película </td>
+                                            </tr>
+                                            <tr>
+                                                <td>source</td>
+                                                <td>Define múltiples recursos de medios para elementos de medios, como <code class="w3-codespan">&lt;video&gt;</code> y <code class="w3-codespan">&lt;audio&gt;</code> </td>
+                                            </tr>
+                                            <tr>
+                                                <td>track</td>
+                                                <td>Define pistas de texto en reproductores multimedia</td>
+                                            </tr>
+                                        </table>
                                 </div> 
-
-                                <div class="col-md-12">
-                                    <br>
-                                    <h4>Encabezados HTML</h4>
-                                    <p>Los encabezados HTML se definen con el <code class="w3-codespan">&lt;h1&gt;</code> a <code class="w3-codespan">&lt;6&gt;</code> etiquetas.<br>
-                                    <code class="w3-codespan">&lt;h1&gt;</code> define el encabezado más importante. <code class="w3-codespan">&lt;h6&gt;</code> define lo menos importante rumbo: 
-                                    </p>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <br>
-                                    <h4>Elementos HTML vacíos</h4>
-                                    <p>Los elementos HTML sin contenido se denominan elementos vacíos. Los <code class="w3-codespan">&lt;br&gt;</code> la etiqueta define un salto de línea, y es un elemento vacío sin una etiqueta de cierreCon esta etiqueta HTML le podemos decir al navegador que viene un salto de línea. Nos sirve para hacer el texto más leíble.</p>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <h4>Imágenes HTML</h4>
-                                    <p>Usamos la etiqueta IMG para mostrar imágenes dentro del contenido. Necesita el atributo src para funcionar, ya que será donde indicaremos desde donde tiene que mostrar la imagen.<br>
-                                    Las imágenes HTML se definen con el <code class="w3-codespan">&lt;img&gt;</code> etiqueta.<br>
-                                    El archivo fuente <code class="w3-codespan">(src)</code>, texto alternativo <code class="w3-codespan">(alt)</code>, <code class="w3-codespan">(width)</code>, y <code class="w3-codespan">(height)</code> se proporcionan como atributos:
-                                    </p>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <h4>Párrafos HTML</h4>
-                                    <p>Los párrafos HTML se definen con la etiqueta <code class="w3-codespan">&lt;p&gt;</code></p>
-                                </div>
-
-                                <div class="col-md-12">
-                                <h4>Navegadores Web</h4>
-                                    <p>El propósito de un navegador web (Chrome, Edge, Firefox, Safari) es leer documentos HTML y mostrarlos. correctamente.</p>
-                                    <p>Un navegador no muestra las etiquetas HTML, sino que las utiliza para determinar cómo mostrar el documento:</p>
-                                    <img src="./resources/images/tag.png" alt="">
-                                </div>
-
                             </div>
                         </section>
                         </div>

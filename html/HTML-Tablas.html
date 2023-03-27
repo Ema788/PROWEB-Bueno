@@ -260,12 +260,6 @@
             </li>
 
             <!--HTML Youtube -->
-            <li class="menu-item">
-              <a href="HTML-Youtube.html" class="menu-link">
-                <i class="menu-icon tf-icons bx bxl-youtube"></i>
-                <div data-i18n="Boxicons">HTML Youtube</div>
-              </a>
-              </a>
               <ul class="menu-sub">
                 <li class="menu-item">
                   <a href="pages-misc-error.html" class="menu-link">
@@ -310,7 +304,7 @@
                 <li class="nav-item navbar-dropdown dropdown-user dropdown">
                   <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
                     <div class="avatar avatar-online">
-                      <img src="../assets/img/avatars/1.png" alt="" class="w-px-40 h-auto rounded-circle">
+                      <img src="../assets/img/img_cont/usuario-registrado.jpg" alt="" class="w-px-40 h-auto rounded-circle">
                     </div>
                   </a>
                   <ul class="dropdown-menu dropdown-menu-end">
@@ -319,7 +313,7 @@
                         <div class="d-flex">
                           <div class="flex-shrink-0 me-3">
                             <div class="avatar avatar-online">
-                              <img src="../assets/img/avatars/1.png" alt="" class="w-px-40 h-auto rounded-circle">
+                              <img src="../assets/img/img_cont/usuario-registrado.jpg" alt="" class="w-px-40 h-auto rounded-circle">
                             </div>
                           </div>
                           <div class="flex-grow-1">
@@ -361,18 +355,18 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML /</span> Tablas Basicas</h4>
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML /</span> Tablas Básicas</h4>
                 
               <div class="col-sm-12 col-lg-12 mb-4">
                 <div class="card text">
                   <div class="card-body">
                     <h3 class="titleh4">¿Qué son?</h3>
                     <p>Las tablas HTML permiten a los desarrolladores web organizar los datos en filas y columnas, 
-                      Las tablas se definen con el < table > </p>
+                      Las tablas se definen con el <code class="w3-codespan">&lt;table&gt;</code> y <code class="w3-codespan">&lt;/table&gt;</code> </p>
                       <ul>
-                      <li>Las tablas se dividen en filas de la tabla con el < tr > etiqueta.</li>
-                      <li>Las filas se dividen en datos de la tabla con la < td > etiqueta.</li>
-                      <li>Una fila de la tabla también se puede dividir en encabezados de la tabla con el <th> etiqueta.</li>
+                      <li>Las tablas se dividen en filas de la tabla con el <code class="w3-codespan">&lt;tr&gt;</code>etiqueta.</li>
+                      <li>Las filas se dividen en datos de la tabla con la <code class="w3-codespan">&lt;td&gt;</code> etiqueta.</li>
+                      <li>Una fila de la tabla también se puede dividir en encabezados de la tabla con el <code class="w3-codespan">&lt;th&gt;</code> etiqueta.</li>
                       </ul>
                     </div>
                 </div>
@@ -406,6 +400,48 @@
                   </div>
                 </div>
               </div>
+
+              <div class="col-sm-12 col-lg-12 mb-4">
+                <div class="card text">
+                  <div class="card-body">
+                    <h3 class="titleh4">Apendrizaje Activo- Crea tu propia tabla</h3>
+                    <p>1. El contenido de cada tabla está delimitado entre estas dos etiquetas: < table > </ table >. Añádelas al cuerpo de tu código HTML.</p>
+                    <p>2. El contenedor más pequeño dentro de una tabla es una celda, que se crea con un elemento < td > ('td' significa 'table data', datos de tabla). Añade lo siguiente dentro de tus etiquetas de tabla:</p>
+                    <p> <strong>< td > Hola, soy tu primera celda.< /td > </strong></p>
+                    <p>3. Si quieres una fila de cuatro celdas, tienes que copiar estas etiquetas tres veces. Actualiza el contenido de la tabla para que se vea así:</p>
+                    <p> <strong < td >Hola, soy tu primera celda.< /td > </strong></p>
+                    <p> <strong>< td >Soy tu segunda celda.< /td ></strong> </p>
+                    <p> <strong>< td >Soy tu tercera celda.< /td ></strong></p>
+                    <p>4. Coloca las cuatro celdas que has creado dentro de las etiquetas < tr ></p>
+                    <img class="img-fluid" src="../assets/img/img_cont/tr.JPG" alt="Card image cap" />
+                    <p>5. Ahora que has hecho una fila, intenta hacer una o dos más: cada fila debe estar delimitada por un elemento <code class="w3-codespan">&lt;tr&gt;</code> adicional, con cada celda contenida en un <code class="w3-codespan">&lt;th&gt;</code>.</p>
+                    <img class="img-fluid" src="../assets/img/img_cont/tablaresultado.JPG" alt="Card image cap" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mb-12">
+                <div class="col-sm-6 col-lg-6 mb-4">
+                  <div class="card text">
+                    <div class="card-body">
+                      <h5 class="titleh4">Encabezados</h5>
+                      <p>Para reconocer los encabezados de la tabla como encabezados, tanto visual como semánticamente, puedes usar el elemento <code class="w3-codespan">&lt;th&gt;</code> ('th' significa 'table header', encabezado de tabla)</p>
+                      <h5 class="titleh4">Celdas que abarcan varias filas y columnas</h5>
+                      <p><code class="w3-codespan">&lt;colspan&gt;</code> y <code class="w3-codespan">&lt;rowspan&gt;</code></p>
+                      <p>Los atributos colspan y rowspan permiten unir una celda con las celdas contiguas, tanto horizontal como verticalmente. El valor de colspan indica la cantidad de celdas unidas en horizontal y el valor de rowspan indica la cantidad de celdas unidas en vertical.</p>
+                      <p>El HTML tiene un método para definir información de estilo para una columna completa de datos en un solo lugar: los elementos <code class="w3-codespan">&lt;col&gt;</code> y <code class="w3-codespan">&lt;colgroup&gt;</code></p>
+                      <p style="color: red;">Estos atributos existen porque especificar el estilo de las columnas puede resultar enojoso e ineficiente</p>
+                    </div>
+                  </div>
+                </div> 
+  
+                <div class="col-md-6 col-lg-6 mb-3">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <img class="img-fluid" src="../assets/img/img_cont/colspan_rowspan.webp" alt="Card image cap" />
+                    </div>
+                  </div>
+                </div>
               
               <!-- Striped Rows -->
               <div class="card">

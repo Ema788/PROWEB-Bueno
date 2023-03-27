@@ -94,7 +94,7 @@
               <span class="menu-header-text">Curso Básico</span>
             </li>
             <li class="menu-item active open">
-              <a href="javascript:void(0);" class="menu-link">
+              <a href="./HTML-Basci.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-dock-top"></i>
                 <div data-i18n="Account Settings">HTML Basic</div>
               </a>

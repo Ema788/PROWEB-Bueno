@@ -20,7 +20,7 @@
     <meta name="description" content="" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="../assets/img/img_cont/Circulo_cromatico.svg.png" />
+    <link rel="icon" type="image/x-icon" href="../assets/img/icons/unicons/Circulo_cromatico.svg.png" />
     <link rel="stylesheet" href="../examenesRecursos/stylep.css">
     <link rel="stylesheet" type="text/css" href="../examenesRecursos/bootstrap.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>

@@ -304,6 +304,46 @@
         }
       </style>
 
+<style>
+  .grey-color {
+  background-color: #E7E9EB;
+  color: #000;
+}
+  element.style {
+  position: relative;
+  overflow: visible;
+  margin-bottom: 1px;
+}
+.green-border {
+  border-left: 4px solid #04AA6D;
+}
+.w3-code, w3-codeline {
+  font-size: 15px;
+}
+.w3-section, .w3-code {
+  margin-top: 16px!important;
+  margin-bottom: 16px!important;
+}
+.w3-code {
+  width: auto;
+  background-color: #fff;
+  color: #000;
+  padding: 8px 12px;
+  border-left: 4px solid #4CAF50;
+  word-wrap: break-word;
+}
+.w3-card, .w3-card-2 {
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.tryit-button {
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 25px;
+  font-size: 18px;
+  width: 200px;
+}
+</style>
+
       <!-- Layout container -->
       <div class="layout-page">
         <!-- Navbar -->
@@ -362,275 +402,126 @@
                     <div class="col-md-4">
                       <br>
                       <h3><strong>INTRODUCCIÓN A HTML</strong></h3>
-                    </div><!-- /.col -->
-                    <section class="content">
+                  </div><!-- /.col -->
+                  <section class="content">
                       <div class="container-fluid">
-                        <div class="row">
-                          <!-- ./col -->
-                          <div class="col-md-12">
-                            <h4 class="titleh4">¿Qué es un elemento HTML?</h4>
-                            <p>HTML no es un lenguaje de programación; es un lenguaje de marcado que define la
-                              estructura de tu contenido. HTML consiste en una serie de elementos que usarás para
-                              encerrar diferentes partes del contenido para que se vean o comporten de una determinada
-                              manera.</p>
-                            <p>Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una
-                              etiqueta de final:</p>
-                            <center>
-                              <img src="../assets/img/img_cont/tag.png" alt="">
-                            </center>
-                          </div>
-                        </div>
-                        <br>
-                        <div class="col-md-12">
-                          <br>
-                          <h4 class="titleh4">Documentos HTML</h4>
-                          <p>Todos los documentos <b>HTML</b> deben comenzar con una declaración de tipo de documento:
-                            <code class="w3-codespan">&lt;!DOCTYPE html&gt;</code><br>
-                            El documento <b>HTML</b> en sí comienza con <code class="w3-codespan">&lt;html&gt;</code> y
-                            termina con <code class="w3-codespan">&lt;/html&gt;</code>.<br>
-                            La parte visible del documento <b>HTML</b> está entre <code
-                              class="w3-codespan">&lt;body&gt;</code> y <code class="w3-codespan">/body&gt;</code>.</p>
-                        </div>
-                        <div class="row">
-                          <!-- ./col -->
-                          <div class="col-md-12">
-                            <h4 class="titleh4">Anatomia de un documento HTML</h4>
-                            <center><img src="../assets/img/img_cont/anatomiaHTML.jpg" alt="100px" height="300px">
-                            </center>
-                          </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                          <div class="col-md-12">
-                            <h4 class="titleh4"><code class="w3-codespan">&lt;html&gt;</code> y <code class="w3-codespan">/html&gt;</code>
-                            </h4>
-                            <p>Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce
-                              como el elemento raíz (root element).</p>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-md-12">
-                            <h4 class="titleh4">
-                              <code class="w3-codespan">&lt;meta charset="utf-8"&gt;</code>
-                            </h4>
-                            <p>Este elemento establece el juego de caracteres que el documento usará en utf-8, que
-                              incluye casi todos los caracteres de todos los idiomas humanos. </p>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-md-12">
-                            <h4 class="titleh4">
-                              <code class="w3-codespan">&lt;title&gt;</code> y <code class="w3-codespan">/title&gt;</code>
-                            </h4>
-                            <p>establece el título de tu página, que es el título que aparece en la pestaña o en la
-                              barra de título del navegador cuando la página es cargada</p>
-                          </div>
-                        </div>
-                        
-                        <div class="col-md-12">
-                          <center><h4>¿Por qué necesitamos estructura?</h4></center>
-                          <p>Los usuarios que miran una página web tienden a escanearla rápidamente para encontrar el contenido relevante que hay en ella ya menudo empiezan por leer los encabezados para comenzar. (Solemos pasar muy poco tiempo en una página web ). Si no pueden ver nada útil en unos segundos, es probable que se sientan frustrados y se vayan a otro sitio.</p>
-                        </div>
-                        <br>
-                        <div class="row">
-                          <!-- ./col -->
-                          <div class="col-md-12">
-                            <center>
-                              <h2 style="color:black;">Etiquetas Básicas de HTML</h2>
-                            </center>
-                            <h4>
-                              <code class="w3-codespan">&lt;body&gt;</code> y <code class="w3-codespan">/body&gt;</code>
-                            </h4>
-                            <p>Indica la parte del cuerpo del contenido de un documento HTML. Es una etiqueta esencial
-                              para cualquier documento ya que indica donde empieza el contenido visible del documento.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <!-- ./col -->
-                          <div class="col-md-12">
-                            <h4>
-                              <code class="w3-codespan">&lt;head&gt;</code> y <code class="w3-codespan">/head&gt;</code>
-                            </h4>
-                            <p>La parte superior del documento HTML, es donde podremos indicar los metadatos: título del
-                              documento, hojas de estilos, javaScript, CSS…</p>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <!-- ./col -->
-                          <div class="col-md-12">
-                            <h4>
-                              <code class="w3-codespan">&lt;div&gt;</code> y <code class="w3-codespan">/div&gt;</code>
-                            </h4>
-                            <p>Para agrupar otros elementos y actuar como plantilla de otros controles. La etiqueta <
-                                div> nos ayuda a estructurar el documento en secciones.</p>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <!-- ./col -->
-                          <div class="col-md-12">
-                            <h4>
-                              <code class="w3-codespan">&lt;a&gt;</code> y <code class="w3-codespan">/a&gt;</code>
-                            </h4>
-                            <p>Es una etiqueta que nos ayuda a poder crear un enlace a una página web. El atributo
-                              principal de la etiqueta HTML es href</p>
-                            <p><i>Ejemplo</i></p>
-                            <p><strong>
-                                < a href=”https://www.nombredelaweb.com/” target=”_blank”>aquí< /a>
-                              </strong></p>
-                          </div>
                           <div class="row">
                             <!-- ./col -->
                             <div class="col-md-12">
-                              <h4>
-                                <code class="w3-codespan">&lt;stromg&gt;</code> y <code class="w3-codespan">/strong&gt;</code>
-                              </h4>
-                              <p>Si tienes mucho texto, es importante poder dar énfasis a una parte en concreto, con la
-                                etiqueta strong lo podemos hacer.</p>
-                              <center><img src="../assets/img/img_cont/strong.png" alt="100px" height="200px"></center>
-                              <br>
-                              <br>
+                              <h4 class="titleh4">¿Qué es un elemento HTML?</h4>
+                                <p>HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera.</p>
+                                <p>Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de final:</p>
+                                <center>
+                                  <img src="../assets/img/img_cont/etiqueta.jpg" alt="">
+                                </center> 
                             </div>
                           </div>
-                          <div class="row">
-                            <div class="col-md-12">
-                              <h4>
-                                <code class="w3-codespan">&lt;h1....h6&gt;</code> y <code class="w3-codespan">/h1...h6&gt;</code>
-                              </h4>
-                              <p>Las etiquetas < H + número> nos permiten indicar la importancia del título y para
-                                  estructurar el contenido.</p>
-                            </div>
+                          <hr>
+
+                          <!-- Documentos HTML-->
+                          <div class="col-md-12">
+                            <br>
+                            <h4 class="titleh4">Documentos HTML</h4>
+                              <p>Todos los documentos <b>HTML</b> deben comenzar con una declaración de tipo de documento: <code class="w3-codespan">&lt;!DOCTYPE html&gt;</code><br>
+                              El documento <b>HTML</b> en sí comienza con <code class="w3-codespan">&lt;html&gt;</code> y termina con <code class="w3-codespan">&lt;/html&gt;</code>.<br>
+                              La parte visible del documento <b>HTML</b> está entre <code class="w3-codespan">&lt;body&gt;</code> y <code class="w3-codespan">/body&gt;</code>.</p> 
                           </div>
-                          <div class="row">
-                            <div class="col-md-12">
-                              <h4>
-                                <code class="w3-codespan">&lt;br&gt;</code>
-                              </h4>
-                              <p>Con esta etiqueta HTML le podemos decir al navegador que viene un salto de línea. Nos
-                                sirve para hacer el texto más leíble.</p>
-                            </div>
+                          <div class="w3-hide-small grey-color w3-card-2 w3-round" style="padding:16px;">
+                            <h3>Ejemplo HTML:</h3>
+                              <div class="w3-code htmlHigh notranslate green-border" style="height:250px">
+                                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>title<span class="tagcolor" style="color:mediumblue">&gt;</span></span>HTML Tutorial<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/title<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+                                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a heading<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a paragraph.<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+                                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                              </div>
+                          </div> 
+                          <br>
+                          <hr>
+                          
+                          <!-- DOCTYPE -->
+                          <div class="col-md-12">
+                            <br>
+                            <h4 class="titleh4">Declaración < !DOCTYPE ></h4>
+                              <p>Los <code class="w3-codespan">&lt;!DOCTYPE&gt;</code> la declaración representa el tipo de documento y ayuda a los navegadores a mostrar las páginas web correctamente.<br>
+                                Solo debe aparecer una vez, en la parte superior de la página ( antes de cualquier etiqueta HTML ).<br>
+                                La declaración no es sensible a mayúsculas y minúsculas y se declara de la siguiente manera: </p> 
                           </div>
-                          <div class="row">
-                            <div class="col-md-12">
-                              <h4>
-                                <code class="w3-codespan">&lt;img&gt;</code> y <code class="w3-codespan">/img&gt;</code>
-                              </h4>
-                              <p>Usamos la etiqueta IMG para mostrar imágenes dentro del contenido. Necesita el atributo
-                                src para funcionar, ya que será donde indicaremos desde donde tiene que mostrar la
-                                imagen.</p>
-                              <center><img src="../assets/img/img_cont/img.png" alt="100px" height="200px"></center>
-                              <br>
+                          <div class="w3-hide-small grey-color w3-card-2 w3-round" style="padding:16px;">
+                              <div class="w3-code htmlHigh notranslate green-border" style="height:40px">
+                                <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span> 
+                              </div>
+                          </div>
+                          <br>
+                          <hr>
+
+                          <!-- Encabezados -->
+                          <div class="col-md-12">
+                            <br>
+                              <h4 class="titleh4">Encabezados HTML</h4>
+                              <p>Los encabezados HTML se definen con el <code class="w3-codespan">&lt;h1&gt;</code> a <code class="w3-codespan">&lt;6&gt;</code> etiquetas.<br>
+                              <code class="w3-codespan">&lt;h1&gt;</code> define el encabezado más importante. <code class="w3-codespan">&lt;h6&gt;</code> define lo menos importante rumbo: 
+                              </p>
+                          </div>
+                          <div class="w3-hide-small grey-color w3-card-2 w3-round" style="padding:16px;">
+                            <div class="w3-code htmlHigh notranslate green-border" style="height:85px">
+                              <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span> Este es el encabezado 1 <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                              <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h2<span class="tagcolor" style="color:mediumblue">&gt;</span></span> Este es el encabezado 2 <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h2<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                              <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h3<span class="tagcolor" style="color:mediumblue">&gt;</span></span> Este es el encabezado 3 <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h3<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
                             </div>
                           </div>
                           <br>
-                          <div class="row">
-                            <div class="col-md-12">
-                              <h4>
-                                <code class="w3-codespan">&lt;ul&gt;</code> y <code class="w3-codespan">/ul&gt;</code>
-                                <code class="w3-codespan">&lt;ol&gt;</code> y <code class="w3-codespan">/ol&gt;</code>
-                                <code class="w3-codespan">&lt;li&gt;</code> y <code class="w3-codespan">/il&gt;</code>
-                              </h4>
-                              <p>Las etiquetas OL y LI nos sirven para crear listas, OL para listas ordenadas y UL para
-                                listas sin orden. Dentro de las listas, los elementos se identifican con la etiqueta LI.
-                              </p>
-                              <center><img src="../assets/img/img_cont/liol.jpg" alt="100px" height="200px"></center>
-                              <br>
-                              <br>
+                          <hr>
+
+                          <!-- Parrafos -->
+                          <div class="col-md-12">
+                            <br>
+                            <h4 class="titleh4">Párrafos HTML</h4>
+                            <p>Los párrafos HTML se definen con la etiqueta <code class="w3-codespan">&lt;p&gt;</code></p>
+                          </div>
+                          <div class="w3-hide-small grey-color w3-card-2 w3-round" style="padding:16px;">
+                            <div class="w3-code htmlHigh notranslate green-border" style="height:65px">
+                              <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span> Este es un párrafo. <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                            <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span> Este es otro párrafo. <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
                             </div>
                           </div>
+                          <br>
+                          <hr>
+
+                          <!-- Enlaces -->
                           <div class="col-md-12">
                             <br>
                             <h4 class="titleh4">Enlaces HTML</h4>
-                            <div class="row">
-                              <div class="col-sm-6">
-                                <p>Los enlaces HTML se definen con el <code class="w3-codespan">&lt;a&gt;</code>
-                                  etiqueta. Es una etiqueta que nos ayuda a poder crear un enlace a una página web. El
-                                  atributo principal de la etiqueta HTML es href. <br>
-                                  Los <code class="w3-codespan">href</code> atributo especifica la URL de la página</p>
-                              </div>
-                              <div class="col-sm-6">
-                                <div class="w3-hide-small grey-color w3-card-2 w3-round" style="padding:16px;">
-                                  <h3>Ejemplo</h3>
-                                  <div class="w3-code htmlHigh notranslate green-border" style="height:300px">
-                                    <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
-                                        style="color:mediumblue">&lt;</span>body<span class="tagcolor"
-                                        style="color:mediumblue">&gt;</span></span><br>
-                                    <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
-                                        style="color:mediumblue">&lt;</span>a href= ”https://www.nombredelaweb.com/”
-                                      target=”_blank”<span class="tagcolor"
-                                        style="color:mediumblue">&gt;</span></span>Esto es un enlace<span
-                                      class="tagnamecolor" style="color:brown"><span class="tagcolor"
-                                        style="color:mediumblue">&lt;</span>/a<span class="tagcolor"
-                                        style="color:mediumblue">&gt;</span></span><br>
-                                    <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
-                                        style="color:mediumblue">&lt;</span>/body<span class="tagcolor"
-                                        style="color:mediumblue">&gt;</span></span><br>
-                                  </div>
-                                </div>
-                              </div>
+                            <p>Los enlaces HTML se definen con el <code class="w3-codespan">&lt;a&gt;</code> etiqueta. Es una etiqueta que nos ayuda a poder crear un enlace a una página web. El atributo principal de la etiqueta HTML es href.<br>
+                              Los <code class="w3-codespan">href</code> atributo especifica la URL de la página</p>
+                          </div>
+                          <div class="w3-hide-small grey-color w3-card-2 w3-round" style="padding:16px;">
+                            <div class="w3-code htmlHigh notranslate green-border" style="height:40px">
+                              <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>a<span class="attributecolor" style="color:red"> href<span class="attributevaluecolor" style="color:mediumblue">="https://campusvirtual.uptlax.edu.mx/"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span> Link al campus virtual <b>UPTx</b>. <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/a<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
                             </div>
-                            <p><i>Ejemplo</i></p>
-                            <p>
-                              < a href=”https://www.nombredelaweb.com/” target=”_blank”>aquí< /a>
-                            </p>
                           </div>
+                          <br>
+                          <hr>
 
+                          <!-- Imagenes -->
                           <div class="col-md-12">
                             <br>
-                            <h4 class="titleh4">El atributo de estilo</h4>
-                            <p>Los <code class="w3-codespan">style</code> atributo se usa para agregar estilos a un
-                              elemento, como color, fuente, tamaño y más.</p>
+                              <h4 class="titleh4">Imágenes HTML</h4>
+                              <p>Usamos la etiqueta IMG para mostrar imágenes dentro del contenido. Necesita el atributo src para funcionar, ya que será donde indicaremos desde donde tiene que mostrar la imagen.<br>
+                                Las imágenes HTML se definen con el <code class="w3-codespan">&lt;img&gt;</code> etiqueta.<br>
+                                El archivo fuente <code class="w3-codespan">(src)</code>, texto alternativo <code class="w3-codespan">(alt)</code>, <code class="w3-codespan">(width)</code>, y <code class="w3-codespan">(height)</code> se proporcionan como atributos:
+                              </p>
                           </div>
-
-                          <div class="col-md-12">
-                            <br>
-                            <h4 class="titleh4">Encabezados HTML</h4>
-                            <p>Los encabezados HTML se definen con el <code class="w3-codespan">&lt;h1&gt;</code> a
-                              <code class="w3-codespan">&lt;6&gt;</code> etiquetas.<br>
-                              <code class="w3-codespan">&lt;h1&gt;</code> define el encabezado más importante. <code
-                                class="w3-codespan">&lt;h6&gt;</code> define lo menos importante rumbo:
-                            </p>
+                          <div class="w3-hide-small grey-color w3-card-2 w3-round" style="padding:16px;">
+                            <div class="w3-code htmlHigh notranslate green-border" style="height:40px">
+                              <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>img<span class="attributecolor" style="color:red"> src<span class="attributevaluecolor" style="color:mediumblue">="UPTx.jpg"</span> alt<span class="attributevaluecolor" style="color:mediumblue">="campusvirtual.uptlax.edu.mx"</span> width<span class="attributevaluecolor" style="color:mediumblue">="104"</span> height<span class="attributevaluecolor" style="color:mediumblue">="142"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                            </div>
                           </div>
-
-                          <div class="col-md-12">
-                            <br>
-                            <h4 class="titleh4">Elementos HTML vacíos</h4>
-                            <p>Los elementos HTML sin contenido se denominan elementos vacíos. Los <code
-                                class="w3-codespan">&lt;br&gt;</code> la etiqueta define un salto de línea, y es un
-                              elemento vacío sin una etiqueta de cierreCon esta etiqueta HTML le podemos decir al
-                              navegador que viene un salto de línea. Nos sirve para hacer el texto más leíble.</p>
-                          </div>
-
-                          <div class="col-md-12">
-                            <h4 class="titleh4">Imágenes HTML</h4>
-                            <p>Usamos la etiqueta IMG para mostrar imágenes dentro del contenido. Necesita el atributo
-                              src para funcionar, ya que será donde indicaremos desde donde tiene que mostrar la
-                              imagen.<br>
-                              Las imágenes HTML se definen con el <code class="w3-codespan">&lt;img&gt;</code>
-                              etiqueta.<br>
-                              El archivo fuente <code class="w3-codespan">(src)</code>, texto alternativo <code
-                                class="w3-codespan">(alt)</code>, <code class="w3-codespan">(width)</code>, y <code
-                                class="w3-codespan">(height)</code> se proporcionan como atributos:
-                            </p>
-                          </div>
-
-                          <div class="col-md-12">
-                            <h4 class="titleh4">Párrafos HTML</h4>
-                            <p>Los párrafos HTML se definen con la etiqueta <code class="w3-codespan">&lt;p&gt;</code>
-                            </p>
-                          </div>
-
-                          <div class="col-md-12">
-                            <h4 class="titleh4">Navegadores Web</h4>
-                            <p>El propósito de un navegador web (Chrome, Edge, Firefox, Safari) es leer documentos HTML
-                              y mostrarlos. correctamente.</p>
-                            <p>Un navegador no muestra las etiquetas HTML, sino que las utiliza para determinar cómo
-                              mostrar el documento:</p>
-                            <img src="./resources/images/tag.png" alt="">
-                          </div>
-
-                        </div>
-                    </section>
+                      </div>
+                  </section>
                   </div>
                 </div>
               </div>

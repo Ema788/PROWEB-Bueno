@@ -2,7 +2,7 @@
 let questions = [
     {
     numb: 1,
-    question: "La etiqueta < a > define un hipervínculo  y su atributo especifica la URL de la página",
+    question: "La etiqueta < a > define un hipervínculo, ¿Qué atributo especifica la URL de la página?",
     answer: "href",
     options: [
         "href",
@@ -13,7 +13,7 @@ let questions = [
     },
     {
     numb: 2,
-    question: "La etiqueta < img > se usa para incrustar un imagen en una página HTML y su atributo especifica la ruta a la imagen",
+    question: "La etiqueta < img > se usa para incrustar un imagen en una página HTML, ¿Qué atributo especifica la ruta de la imagen?",
     answer: "src",
     options: [
         "href",
@@ -24,7 +24,7 @@ let questions = [
     },
     {
     numb: 3,
-    question: "Los <img> la etiqueta también debe contener el width y height atributos, que especifican el ancho y altura de la imagen",
+    question: "¿Qué atributos especifican el ancho y la altura de la imagen?",
     answer: "width y height",
     options: [
         "href",
@@ -46,7 +46,7 @@ let questions = [
     },
     {
     numb: 5,
-    question: "La etiqueta < html > sirve declarar el lenguaje de la página web. Esto está destinado a ayudar a los motores de búsqueda y navegadores.",
+    question: "¿Que atributo declara el idioma de la página web? Debe de estar dentro de la etiquetam < html >",
     answer: "lang",
     options: [
         "href",
@@ -57,7 +57,7 @@ let questions = [
     },
     {
     numb: 6,
-    question: "Este atributo define algún extra de información sobre un elemento (Titulo)",
+    question: "Este atributo define información adicional sobre un elemento.",
     answer: "title",
     options: [
         "title",

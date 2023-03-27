@@ -2,79 +2,79 @@
 let questions = [
     {
     numb: 1,
-    question: "La etiqueta < a > define un hipervínculo  y su atributo especifica la URL de la página",
-    answer: "href",
+    question: "Etiqueta que define las celdas de una tabla",
+    answer: "< td >",
     options: [
-        "href",
-        "style",
-        "src",
-        "title"
+        "< td >",
+        "< tr >",
+        "< table >",
+        "< col >"
     ]
     },
     {
     numb: 2,
-    question: "La etiqueta < img > se usa para incrustar un imagen en una página HTML y su atributo especifica la ruta a la imagen",
-    answer: "src",
+    question: "Etiqueta que define la tabla",
+    answer: "< table >",
     options: [
-        "href",
-        "style",
-        "src",
-        "title"
+        "< td >",
+        "< tr >",
+        "< table >",
+        "< col >"
     ]
     },
     {
     numb: 3,
-    question: "Los <img> la etiqueta también debe contener el width y height atributos, que especifican el ancho y altura de la imagen",
-    answer: "width y height",
+    question: "Etiqueta que define una celda de encabezado en una tabla",
+    answer: "< th >",
     options: [
-        "href",
-        "width y height",
-        "src",
-        "title"
+        "< td >",
+        "< tr >",
+        "< table >",
+        "< th >"
     ]
     },
     {
     numb: 4,
-    question: "Este atributo se usa para agregar estilos a un elemento, como color, fuente, tamaño y más.",
-    answer: "style",
+    question: "Etiqueta que define el título de la tabla",
+    answer: "< caption >",
     options: [
-        "href",
-        "width y height",
-        "src",
-        "style"
+        "< td >",
+        "< caption >",
+        "< table >",
+        "< th >"
     ]
     },
     {
     numb: 5,
-    question: "La etiqueta < html > sirve declarar el lenguaje de la página web. Esto está destinado a ayudar a los motores de búsqueda y navegadores.",
-    answer: "lang",
+    question: "Etiqueta que agrupa el contenido del pie de página en una tabla",
+    answer: "< tfoot >",
     options: [
-        "href",
-        "width y height",
-        "src",
-        "lang"
+        "< tfoot >",
+        "< caption >",
+        "< table >",
+        "< th >"
     ]
     },
     {
     numb: 6,
-    question: "Este atributo define algún extra de información sobre un elemento (Titulo)",
-    answer: "title",
+    question: "Etiqueta que agrupa el contenido del cuerpo en una tabla",
+    answer: "< tbody >",
     options: [
-        "title",
-        "width y height",
-        "src",
-        "lang"
+        "< table >",
+        "< tbody >",
+        "< th >",
+        "< tr >"
     ]
     },  
     {
     numb: 7,
-    question: "La etiqueta < img > tiene un atributo que proporciona un texto alternativo para una imagen",
+    question: "Etiqueta que agrupa el contenido del encabezado en una tabla",
     answer: "alt",
     options: [
-        "title",
-        "alt",
-        "src",
-        "lang"
+        "< table >",
+        "< tbody >",
+        "< thead >",
+        "< tr >"
     ]
     }, 
   // puede descomentar los códigos a continuación y duplicarlos tanto como desee agregar una pregunta

@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 
 <html
-    lang="en"
-    class="light-style layout-menu-fixed"
-    dir="ltr"
-    data-theme="theme-default"
-    data-assets-path="../assets/"
-    data-template="vertical-menu-template-free"
+  lang="en"
+  class="light-style layout-menu-fixed"
+  dir="ltr"
+  data-theme="theme-default"
+  data-assets-path="../assets/"
+  data-template="vertical-menu-template-free"
 >
-    <head>
-        <meta charset="utf-8" />
-        <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
     <title>PROWEB | Examen</title>
@@ -24,19 +24,19 @@
     <link rel="stylesheet" href="../examenesRecursos/stylep.css">
     <link rel="stylesheet" type="text/css" href="../examenesRecursos/bootstrap.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <!-- fonts style -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+      <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="../examenesRecursos/style.css" rel="stylesheet" />
-    <!-- responsive style -->
-    <link href="../examenesRecursos/responsive.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="../examenesRecursos/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="../examenesRecursos/responsive.css" rel="stylesheet" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
     />
 
     <!-- Icons. Uncomment required icon fonts -->
@@ -60,11 +60,11 @@
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="../assets/js/config.js"></script>
-    </head>
+  </head>
 
-    <body>
+  <body>
     <div class="layout-wrapper layout-content-navbar">
-        <div class="layout-container">
+      <div class="layout-container">
         <!-- Menu -->
 
         <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
@@ -94,42 +94,37 @@
               <span class="menu-header-text">Curso Básico</span>
             </li>
             <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
+              <a href="javascript:void(0);" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-dock-top"></i>
                 <div data-i18n="Account Settings">HTML Basic</div>
               </a>
               <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="./HTML-Basci.html" class="menu-link">
-                    <div data-i18n="Account">Introducción</div>
-                  </a>
-                </li>
-                <li class="menu-item active">
-                  <a href="pages-account-settings-notifications.html" class="menu-link">
+                <li class="menu-item ">
+                  <a href="./Examen1-Basci.html" class="menu-link">
                     <div data-i18n="Notifications">Examen 1</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="pages-account-settings-connections.html" class="menu-link">
+                  <a href="./Examen1-2-Basci.php" class="menu-link">
                     <div data-i18n="Connections">Examen2</div>
                   </a>
                 </li>
               </ul>
             </li>
             <!-- Curso Atributos -->
-            <li class="menu-item">
+            <li class="menu-item ">
               <a href="HTML-Atributos.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-message-square-edit"></i>
                 <div data-i18n="Misc">HTML Atributos</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="Examen2-Atributos.html" class="menu-link">
+                  <a href="./Examen1-Basci.html" class="menu-link">
                     <div data-i18n="Error">Examen 1</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="pages-misc-under-maintenance.html" class="menu-link">
+                <li class="menu-item ">
+                  <a href="./Examen2-Atributos.html" class="menu-link">
                     <div data-i18n="Under Maintenance">Examen 2</div>
                   </a>
                 </li>
@@ -143,12 +138,12 @@
                 <div data-i18n="Misc">HTML Imagenes</div>
               </a>
               <ul class="menu-sub">
-                <li class="menu-item active">
-                  <a href="Examen3-Imagenes.html" class="menu-link">
+                <li class="menu-item">
+                  <a href="./Examen3-Imagenes.html" class="menu-link">
                     <div data-i18n="Error">Examen 1</div>
                   </a>
                 </li>
-                <li class="menu-item">
+                <li class="menu-item active">
                   <a href="./Examen3-2.php" class="menu-link">
                     <div data-i18n="Under Maintenance">Examen 2</div>
                   </a>
@@ -335,7 +330,7 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML Básico / Imagenes / </span> Examen 1</h4>
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML Basico / Atributos / </span> Examen 2</h4>
 
               <div class="row">
                 <div class="col-md-12">
@@ -344,91 +339,49 @@
                       <a class="nav-link" href="./HTML-Basci.html"><i class="bx bxs-file-html"></i> Introducción</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" href="./Examen3-Imagenes.html"
+                      <a class="nav-link " href="./Examen3-Imagenes.html"
                         ><i class="bx bx-book-content me-1"></i> Examen 1</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="./Examen3-2.php"
+                      <a class="nav-link active" href="./Examen2-2-Atributos.php"
                       ><i class="bx bx-book-content me-1"></i> Examen 2</a
                       >
                     </li>
                   </ul>
+                  
                   <div class="card mb-4">
                     <div class="card-body">
-                    <div class="row">
-                      <br><br><br>
-                    </div>
-                    <div class="row">
-                      <br><br><br><br><br><br><br><br><br>
-                      <br><br><br><br><br><br><br><br><br><br>
-                    </div>
-                    <section class="about_section layout_padding">
                       <div class="container">
-                        <div class="start_btn"><button>Iniciar Examen</button></div>
-                  
-                        <!-- Info Box -->
-                        <div class="info_box">
-                            <div class="info-title"><span>Reglas de tu Examen en Línea</span></div>
-                            <div class="info-list">
-                                <div class="info">1. Solo tendrás <span>15 segundos</span> para responder cada pregunta.</div>
-                                <div class="info">2. Una vez que seleccionas tu respuesta, no se puede deshacer.</div>
-                                <div class="info">3. No puedes seleccionar ninguna opción una vez que se acaba el tiempo.</div>
-                                <div class="info">4. No puedes salir del Quiz mientras está corriendo el tiempo.</div>
-                                <div class="info">5. Obtendrás puntos con base en tus respuestas correctas.</div>
-                            </div>
-                            <div class="buttons">
-                                <button class="quit">Salir</button>
-                                <button class="restart">Continuar</button>
-                            </div>
+                        <form method="post" action="#">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1"><h3>Observa lo siguiente:</h3></label><br>
+                            <h3>
+                            <pre class="lang:default decode:true">
+&lt;img src="scream.png" ?????="250" height="400"&gt;
+                            </pre>
+                            </h3>
+                            <h3><label for="">Usa los atributos de imagen HTML para establecer el tamaño de la imagen en 250 píxeles de ancho y 400 píxeles de alto:</label></h3>
+                            <input type="text" name="etiquetah1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Etiqueta">
+                          </div>
+                          <button type="submit" class="btn btn-primary">Enviar respuesta</button>
+                        </form>
+                        <br><br>
+                        <?php
+                          if(isset($_POST['etiquetah1'])){
+                            $etiquetah1 = $_POST['etiquetah1'];
+                            if($etiquetah1 == "width"){
+                              echo "Respuesta correcta";
+                            }else{
+                              echo "Respuesta incorrecta";
+                            }
+                          }
+                          ?>
                         </div>
-                    
-                        <!-- Quiz Box -->
-                        <div class="quiz_box">
-                            <header>
-                                <div class="title">Examen en línea</div>
-                                <div class="timer">
-                                    <div class="time_left_txt">Tiempo Restante</div>
-                                    <div class="timer_sec">15</div>
-                                </div>
-                                <div class="time_line"></div>
-                            </header>
-                            <section>
-                                <div class="que_text">
-                                    <!-- Here I've inserted question from JavaScript -->
-                                </div>
-                                <div class="option_list">
-                                    <!-- Here I've inserted options from JavaScript -->
-                                </div>
-                            </section>
-                    
-                            <!-- footer of Quiz Box -->
-                            <footer>
-                                <div class="total_que">
-                                    <!-- Here I've inserted Question Count Number from JavaScript -->
-                                </div>
-                                <button class="next_btn">Siguiente Pregunta</button>
-                            </footer>
-                        </div>
-                    
-                        <!-- Result Box -->
-                        <div class="result_box">
-                            <div class="icon">
-                                <i class="fas fa-crown"></i>
-                            </div>
-                            <div class="complete_text">Has finalizado tu examen!</div>
-                            <div class="score_text">
-                                <!-- Here I've inserted Score Result from JavaScript -->
-                            </div>
-                            <div class="buttons">
-                                <button class="restart">Repetir</button>
-                                <button class="quit">Salir</button>
-                            </div>
-                        </div>
-                        </div>
-                    </section>
                     </div>
                   </div>
+
+                  
                 </div>
               </div>
             </div>
@@ -439,30 +392,10 @@
             <footer class="content-footer footer bg-footer-theme">
               <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
                 <div class="mb-2 mb-md-0">
-                  ©
+                  © PROWEB
                   <script>
                     document.write(new Date().getFullYear());
                   </script>
-                  , made with ❤️ by
-                  <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
-                </div>
-                <div>
-                  <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
-                  <a href="https://themeselection.com/" target="_blank" class="footer-link me-4">More Themes</a>
-
-                  <a
-                    href="https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/"
-                    target="_blank"
-                    class="footer-link me-4"
-                    >Documentation</a
-                  >
-
-                  <a
-                    href="https://github.com/themeselection/sneat-html-admin-template-free/issues"
-                    target="_blank"
-                    class="footer-link me-4"
-                    >Support</a
-                  >
                 </div>
               </div>
             </footer>
@@ -485,7 +418,7 @@
 
     <script type="text/javascript" src="../examenesRecursos/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="../examenesRecursos/bootstrap.js"></script>
-    <script src="../examenesRecursos/questionsImagen.js"></script>
+    <script src="../examenesRecursos/questionsBasic1.js"></script>
     <script src="../examenesRecursos/script.js"></script>
   </body>
 </html>

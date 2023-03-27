@@ -99,13 +99,13 @@
                 <div data-i18n="Account Settings">HTML Basic</div>
               </a>
               <ul class="menu-sub">
-                <li class="menu-item active">
+                <li class="menu-item ">
                   <a href="./Examen1-Basci.html" class="menu-link">
                     <div data-i18n="Notifications">Examen 1</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="./Examen1-2-Basci.html" class="menu-link">
+                <li class="menu-item active">
+                  <a href="./Examen1-2-Basci.php" class="menu-link">
                     <div data-i18n="Connections">Examen2</div>
                   </a>
                 </li>
@@ -319,6 +319,7 @@
                     </ul>
                   </div>
                 </div>
+                <!--/ User -->
               </ul>
             </div>
           </nav>
@@ -329,7 +330,7 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML Basic / Introducción / </span> Examen 1</h4>
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML Basic / Introducción / </span> Examen 2</h4>
 
               <div class="row">
                 <div class="col-md-12">
@@ -338,92 +339,49 @@
                       <a class="nav-link" href="./HTML-Basci.html"><i class="bx bxs-file-html"></i> Introducción</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" href="./Examen1-Basci.html"
+                      <a class="nav-link " href="./Examen1-Basci.html"
                         ><i class="bx bx-book-content me-1"></i> Examen 1</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="./Examen1-2-Basci.php"
+                      <a class="nav-link active" href="./Examen1-2-Basci.html"
                       ><i class="bx bx-book-content me-1"></i> Examen 2</a
                       >
                     </li>
                   </ul>
+                  
                   <div class="card mb-4">
                     <div class="card-body">
-                      <a href="HTML-Basci.html">
-                        <img src="../assets/img/img_cont/cerrar1.webp" width="70px" align ="right" title="Salir">
-                      </a>
-                    <div class="row">
-                      <br><br><br>
-                    </div>
-                    <div class="row">
-                      <br><br><br><br>
-                      <br><br><br><br><br><br><br><br><br><br>
-                    </div>
-                    <section class="about_section layout_padding">
                       <div class="container">
-                        <div class="start_btn"><button>Iniciar Examen</button></div>
-                  
-                        <!-- Info Box -->
-                        <div class="info_box">
-                            <div class="info-title"><span>Reglas de tu Examen en Línea</span></div>
-                            <div class="info-list">
-                                <div class="info">1. Solo tendrás <span>15 segundos</span> para responder cada pregunta.</div>
-                                <div class="info">2. Una vez que seleccionas tu respuesta, no se puede deshacer.</div>
-                                <div class="info">3. No puedes seleccionar ninguna opción una vez que se acaba el tiempo.</div>
-                                <div class="info">4. No puedes salir del Quiz mientras está corriendo el tiempo.</div>
-                                <div class="info">5. Obtendrás puntos con base en tus respuestas correctas.</div>
-                            </div>
-                            <div class="buttons">
-                                <button class="quit">Salir</button>
-                                <button class="restart">Continuar</button>
-                            </div>
+                        <form method="post" action="#">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1"><h3>Observa lo siguiente:</h3></label><br>
+                            <h3>
+                            <pre class="lang:default decode:true">
+&lt;p&gt;Londres es la ciudad capital de Inglaterra. Es la ciudad más poblada del Reino 
+
+Unido, con un área metropolitana de más de 13 millones 
+
+de habitantes.&lt;/p&gt;
+                            </pre>
+                            </h3>
+                            <h3><label for="">Use la etiqueta HTML correcta para agregar un encabezado con el texto "Londres":</label></h3>
+                            <input type="text" name="etiquetah1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Etiqueta">
+                          </div>
+                          <button type="submit" class="btn btn-primary">Enviar respuesta</button>
+                        </form>
+                        <br><br>
+                        <?php
+                          if(isset($_POST['etiquetah1'])){
+                            $etiquetah1 = $_POST['etiquetah1'];
+                            if($etiquetah1 == "<h1>Londres</h1>" || $etiquetah1 == "<h1>" || $etiquetah1 == "h1"){
+                              echo "Respuesta correcta";
+                            }else{
+                              echo "Respuesta incorrecta";
+                            }
+                          }
+                          ?>
                         </div>
-                    
-                        <!-- Quiz Box -->
-                        <div class="quiz_box">
-                            <header>
-                                <div class="title">Examen en línea</div>
-                                <div class="timer">
-                                    <div class="time_left_txt">Tiempo Restante</div>
-                                    <div class="timer_sec">15</div>
-                                </div>
-                                <div class="time_line"></div>
-                            </header>
-                            <section>
-                                <div class="que_text">
-                                    <!-- Here I've inserted question from JavaScript -->
-                                </div>
-                                <div class="option_list">
-                                    <!-- Here I've inserted options from JavaScript -->
-                                </div>
-                            </section>
-                    
-                            <!-- footer of Quiz Box -->
-                            <footer>
-                                <div class="total_que">
-                                    <!-- Here I've inserted Question Count Number from JavaScript -->
-                                </div>
-                                <button class="next_btn">Siguiente Pregunta</button>
-                            </footer>
-                        </div>
-                    
-                        <!-- Result Box -->
-                        <div class="result_box">
-                            <div class="icon">
-                                <i class="fas fa-crown"></i>
-                            </div>
-                            <div class="complete_text">Has finalizado tu examen!</div>
-                            <div class="score_text">
-                                <!-- Here I've inserted Score Result from JavaScript -->
-                            </div>
-                            <div class="buttons">
-                                <button class="restart">Repetir</button>
-                                <button class="quit">Salir</button>
-                            </div>
-                        </div>
-                        </div>
-                    </section>
                     </div>
                   </div>
                 </div>

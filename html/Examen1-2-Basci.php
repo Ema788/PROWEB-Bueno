@@ -20,7 +20,7 @@
     <meta name="description" content="" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="../assets/img/img_cont/Circulo_cromatico.svg.png" />
+    <link rel="icon" type="image/x-icon" href="../assets/img/icons/unicons/Circulo_cromatico.svg.png" />
     <link rel="stylesheet" href="../examenesRecursos/stylep.css">
     <link rel="stylesheet" type="text/css" href="../examenesRecursos/bootstrap.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -94,7 +94,7 @@
               <span class="menu-header-text">Curso Básico</span>
             </li>
             <li class="menu-item active open">
-              <a href="javascript:void(0);" class="menu-link">
+              <a href="./HTML-Basci.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-dock-top"></i>
                 <div data-i18n="Account Settings">HTML Basic</div>
               </a>
@@ -392,8 +392,8 @@ de habitantes.&lt;/p&gt;
             <div class="content-backdrop fade"></div>
           </div>
 
-            <!-- Footer -->
-            <footer class="content-footer footer bg-footer-theme">
+           <!-- Footer -->
+           <footer class="content-footer footer bg-footer-theme">
               <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
                 <div class="mb-2 mb-md-0">
                   © PROWEB

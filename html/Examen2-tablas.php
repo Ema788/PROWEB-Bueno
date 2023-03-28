@@ -358,10 +358,19 @@
                             <label for="exampleInputEmail1"><h3>Observa lo siguiente:</h3></label><br>
                             <h3>
                             <pre class="lang:default decode:true">
-&lt;img src="scream.png" ?????="250" height="400"&gt;
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Nombre&lt;/th&gt;
+    &lt;??&gt;   &lt;/??&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td>Alex Juarez&lt;/td&gt;
+    &lt;td>50&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
                             </pre>
                             </h3>
-                            <h3><label for="">Usa los atributos de imagen HTML para establecer el tamaño de la imagen en 250 píxeles de ancho y 400 píxeles de alto:</label></h3>
+                            <h3><label for="">Agrega el encabezado de la tabla con el valor "Edad":</label></h3>
                             <input type="text" name="etiquetah1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Etiqueta">
                           </div>
                           <button type="submit" class="btn btn-primary">Enviar respuesta</button>
@@ -370,7 +379,7 @@
                         <?php
                           if(isset($_POST['etiquetah1'])){
                             $etiquetah1 = $_POST['etiquetah1'];
-                            if($etiquetah1 == "width"){
+                            if($etiquetah1 == "<th>Edad</th>" || $etiquetah1 == "<th>edad</th>" || $etiquetah1 == "<th>EDAD</th>"){
                               echo "Respuesta correcta";
                             }else{
                               echo "Respuesta incorrecta";
@@ -388,8 +397,8 @@
             <div class="content-backdrop fade"></div>
           </div>
 
-            <!-- Footer -->
-            <footer class="content-footer footer bg-footer-theme">
+           <!-- Footer -->
+           <footer class="content-footer footer bg-footer-theme">
               <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
                 <div class="mb-2 mb-md-0">
                   © PROWEB

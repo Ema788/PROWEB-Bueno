@@ -93,7 +93,7 @@
             <li class="menu-header small text-uppercase">
               <span class="menu-header-text">Curso Básico</span>
             </li>
-            <li class="menu-item active open">
+            <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-dock-top"></i>
                 <div data-i18n="Account Settings">HTML Basic</div>
@@ -104,7 +104,7 @@
                     <div data-i18n="Notifications">Examen 1</div>
                   </a>
                 </li>
-                <li class="menu-item active">
+                <li class="menu-item">
                   <a href="./Examen1-2-Basci.php" class="menu-link">
                     <div data-i18n="Connections">Examen2</div>
                   </a>
@@ -112,60 +112,60 @@
               </ul>
             </li>
             <!-- Curso Atributos -->
-            <li class="menu-item">
+            <li class="menu-item ">
               <a href="HTML-Atributos.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-message-square-edit"></i>
                 <div data-i18n="Misc">HTML Atributos</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="HTML-Atributos.html" class="menu-link">
-                    <div data-i18n="Error">Atributos</div>
+                  <a href="./Examen1-Basci.html" class="menu-link">
+                    <div data-i18n="Error">Examen 1</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="pages-misc-under-maintenance.html" class="menu-link">
-                    <div data-i18n="Under Maintenance">Examen 1</div>
+                <li class="menu-item ">
+                  <a href="./Examen2-Atributos.html" class="menu-link">
+                    <div data-i18n="Under Maintenance">Examen 2</div>
                   </a>
                 </li>
               </ul>
             </li>
 
             <!-- Curso Atributos -->
-            <li class="menu-item">
+            <li class="menu-item ">
               <a href="HTML-Imagenes.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-photo-album"></i>
                 <div data-i18n="Misc">HTML Imagenes</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="HTML-Atributos.html" class="menu-link">
-                    <div data-i18n="Error">Atributos</div>
+                  <a href="./Examen3-Imagenes.html" class="menu-link">
+                    <div data-i18n="Error">Examen 1</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="pages-misc-under-maintenance.html" class="menu-link">
-                    <div data-i18n="Under Maintenance">Examen 1</div>
+                  <a href="./Examen3-2.php" class="menu-link">
+                    <div data-i18n="Under Maintenance">Examen 2</div>
                   </a>
                 </li>
               </ul>
             </li>
 
             <!-- Curso Estilos -->
-            <li class="menu-item">
+            <li class="menu-item active open">
               <a href="HTML-EstilosCSS.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bxs-file-css"></i>
                 <div data-i18n="Misc">HTML Estilos</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="pages-misc-error.html" class="menu-link">
-                    <div data-i18n="Error">Error</div>
+                  <a href="./Examen4-Estilos.html" class="menu-link">
+                    <div data-i18n="Error">Examen 1</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="pages-misc-under-maintenance.html" class="menu-link">
-                    <div data-i18n="Under Maintenance">Under Maintenance</div>
+                <li class="menu-item active ">
+                  <a href="./Examen4-2.php" class="menu-link">
+                    <div data-i18n="Under Maintenance">Examen 2</div>
                   </a>
                 </li>
               </ul>
@@ -330,21 +330,21 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML Basic / Introducción / </span> Examen 2</h4>
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML Basico / Estilos / </span> Examen 2</h4>
 
               <div class="row">
                 <div class="col-md-12">
                   <ul class="nav nav-pills flex-column flex-md-row mb-3">
                     <li class="nav-item">
-                      <a class="nav-link" href="./HTML-Basci.html"><i class="bx bxs-file-html"></i> Introducción</a>
+                      <a class="nav-link" href="./HTML-EstilosCSS.html"><i class="bx bxs-file-html"></i> Introducción</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link " href="./Examen1-Basci.html"
+                      <a class="nav-link " href="./Examen4-Estilos.html"
                         ><i class="bx bx-book-content me-1"></i> Examen 1</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" href="./Examen1-2-Basci.html"
+                      <a class="nav-link active" href="./Examen4-2.php"
                       ><i class="bx bx-book-content me-1"></i> Examen 2</a
                       >
                     </li>
@@ -358,14 +358,10 @@
                             <label for="exampleInputEmail1"><h3>Observa lo siguiente:</h3></label><br>
                             <h3>
                             <pre class="lang:default decode:true">
-&lt;p&gt;Londres es la ciudad capital de Inglaterra. Es la ciudad más poblada del Reino 
-
-Unido, con un área metropolitana de más de 13 millones 
-
-de habitantes.&lt;/p&gt;
+&lt;img src="scream.png" ?????="250" height="400"&gt;
                             </pre>
                             </h3>
-                            <h3><label for="">Use la etiqueta HTML correcta para agregar un encabezado con el texto "Londres":</label></h3>
+                            <h3><label for="">Usa los atributos de imagen HTML para establecer el tamaño de la imagen en 250 píxeles de ancho y 400 píxeles de alto:</label></h3>
                             <input type="text" name="etiquetah1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Etiqueta">
                           </div>
                           <button type="submit" class="btn btn-primary">Enviar respuesta</button>
@@ -374,7 +370,7 @@ de habitantes.&lt;/p&gt;
                         <?php
                           if(isset($_POST['etiquetah1'])){
                             $etiquetah1 = $_POST['etiquetah1'];
-                            if($etiquetah1 == "<h1>Londres</h1>" || $etiquetah1 == "<h1>" || $etiquetah1 == "h1"){
+                            if($etiquetah1 == "width"){
                               echo "Respuesta correcta";
                             }else{
                               echo "Respuesta incorrecta";

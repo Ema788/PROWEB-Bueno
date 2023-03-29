@@ -94,7 +94,7 @@
               <span class="menu-header-text">Curso Básico</span>
             </li>
             <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link">
+              <a href="./HTML-Basci.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-dock-top"></i>
                 <div data-i18n="Account Settings">HTML Basic</div>
               </a>
@@ -308,22 +308,23 @@
                         <a class="nav-link active"  href="index.html">Inicio <span class="sr-only"></span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="HTML-Basci.html"> Curso </a>
+                        <a class="nav-link" href="Nosotros.html"> Nosotros </a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="Contactanos.html"> Contactanos </a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="Nosotros.html"> Nosotros </a>
-                      </li>
+                        <div class="avatar" style="width: 70px; height: 45px; padding-left: 15px;">
+                          <a href="Ayuda.html">
+                            <img src="../assets/img/img_cont/ayuda1.png" alt="" title="Ayuda">
+                          </a>
+                        </div>
+                      
                     </ul>
                   </div>
                 </div>
-                <!--/ User -->
               </ul>
             </div>
           </nav>
-
           <!-- / Navbar -->
 
           <div class="content-wrapper">
@@ -336,7 +337,7 @@
                 <div class="col-md-12">
                   <ul class="nav nav-pills flex-column flex-md-row mb-3">
                     <li class="nav-item">
-                      <a class="nav-link" href="./HTML-Basci.html"><i class="bx bxs-file-html"></i> Introducción</a>
+                      <a class="nav-link" href="./HTML-Atributos.html"><i class="bx bxs-file-html"></i> Introducción</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link " href="./Examen2-Atributos.html"
@@ -355,13 +356,16 @@
                       <div class="container">
                         <form method="post" action="#">
                           <div class="form-group">
-                            <label for="exampleInputEmail1"><h3>Observa lo siguiente:</h3></label><br>
+                            <a href="HTML-Atributos.html">
+                              <img src="../assets/img/img_cont/cerrar1.webp" width="40px" align ="right" title="Salir">
+                            </a>
+                            <label for="exampleInputEmail1"><h4 class="titleh4">Observa lo siguiente:</h4></label><br><br>
                             <h3>
                             <pre class="lang:default decode:true">
 &lt;p ?????="Sobre PROWEB">PROWEB es un sitio para aprender programacion web &lt;/p&gt;
                             </pre>
                             </h3>
-                            <h3><label for="">Agregue una "tooltip" al párrafo a continuación con el texto "Acerca de PROWEB":</label></h3>
+                            <h4><label for="">Agregue una "tooltip" al párrafo a continuación con el texto "Acerca de PROWEB":</label></h4>
                             <input type="text" name="etiquetah1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Etiqueta">
                           </div>
                           <button type="submit" class="btn btn-primary">Enviar respuesta</button>
@@ -371,9 +375,15 @@
                           if(isset($_POST['etiquetah1'])){
                             $etiquetah1 = $_POST['etiquetah1'];
                             if($etiquetah1 == "title"){
-                              echo "Respuesta correcta";
+                              echo "<center>
+                              <h3>Respuesta correcta</h3><br>
+                              <img src='../assets/img/img_cont/precorec.png' width='200px'>
+                              </center>";
                             }else{
-                              echo "Respuesta incorrecta";
+                              echo "<center>
+                              <h3>Respuesta incorrecta</h3><br>
+                              <img src='../assets/img/img_cont/preincor.png' width='200px'>
+                              </center>";
                             }
                           }
                           ?>

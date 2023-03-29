@@ -15,7 +15,7 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>PROWEB | Examen</title>
+    <title>PROWEB | Examen 2</title>
 
     <meta name="description" content="" />
 
@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="../examenesRecursos/stylep.css">
     <link rel="stylesheet" type="text/css" href="../examenesRecursos/bootstrap.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-      <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
 
   <!-- Custom styles for this template -->
@@ -51,14 +50,7 @@
     <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
 
     <link rel="stylesheet" href="./css/stylep.css">
-
-    <!-- Page CSS -->
-
-    <!-- Helpers -->
     <script src="../assets/vendor/js/helpers.js"></script>
-
-    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
-    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="../assets/js/config.js"></script>
   </head>
 
@@ -308,18 +300,20 @@
                         <a class="nav-link active"  href="index.html">Inicio <span class="sr-only"></span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="HTML-Basci.html"> Curso </a>
+                        <a class="nav-link" href="Nosotros.html"> Nosotros </a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="Contactanos.html"> Contactanos </a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="Nosotros.html"> Nosotros </a>
-                      </li>
+                        <div class="avatar" style="width: 70px; height: 45px; padding-left: 15px;">
+                          <a href="Ayuda.html">
+                            <img src="../assets/img/img_cont/ayuda1.png" alt="" title="Ayuda">
+                          </a>
+                        </div>
+                      
                     </ul>
                   </div>
                 </div>
-                <!--/ User -->
               </ul>
             </div>
           </nav>
@@ -330,7 +324,7 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML Basic / Introducción / </span> Examen 2</h4>
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">HTML Básico  / Introducción / </span> Examen 2</h4>
 
               <div class="row">
                 <div class="col-md-12">
@@ -355,7 +349,10 @@
                       <div class="container">
                         <form method="post" action="#">
                           <div class="form-group">
-                            <label for="exampleInputEmail1"><h3>Observa lo siguiente:</h3></label><br>
+                            <a href="HTML-Basci.html">
+                              <img src="../assets/img/img_cont/cerrar1.webp" width="40px" align ="right" title="Salir">
+                            </a>
+                            <label for="exampleInputEmail1"><h4 class="titleh4">Observa lo siguiente:</h4></label><br><br>
                             <h3>
                             <pre class="lang:default decode:true">
 &lt;p&gt;Londres es la ciudad capital de Inglaterra. Es la ciudad más poblada del Reino 
@@ -365,7 +362,7 @@ Unido, con un área metropolitana de más de 13 millones
 de habitantes.&lt;/p&gt;
                             </pre>
                             </h3>
-                            <h3><label for="">Use la etiqueta HTML correcta para agregar un encabezado con el texto "Londres":</label></h3>
+                            <h4><label for="">Use la etiqueta HTML correcta para agregar un encabezado con el texto "Londres":</label></h4>
                             <input type="text" name="etiquetah1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Etiqueta">
                           </div>
                           <button type="submit" class="btn btn-primary">Enviar respuesta</button>
@@ -375,9 +372,15 @@ de habitantes.&lt;/p&gt;
                           if(isset($_POST['etiquetah1'])){
                             $etiquetah1 = $_POST['etiquetah1'];
                             if($etiquetah1 == "<h1>Londres</h1>" || $etiquetah1 == "<h1>" || $etiquetah1 == "h1"){
-                              echo "Respuesta correcta";
+                              echo "<center>
+                              <h3>Respuesta correcta</h3><br>
+                              <img src='../assets/img/img_cont/precorec.png' width='200px'>
+                              </center>";
                             }else{
-                              echo "Respuesta incorrecta";
+                              echo "<center>
+                              <h3>Respuesta incorrecta</h3><br>
+                              <img src='../assets/img/img_cont/preincor.png' width='200px'>
+                              </center>";
                             }
                           }
                           ?>

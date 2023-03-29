@@ -308,22 +308,23 @@
                         <a class="nav-link active"  href="index.html">Inicio <span class="sr-only"></span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="HTML-Basci.html"> Curso </a>
+                        <a class="nav-link" href="Nosotros.html"> Nosotros </a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="Contactanos.html"> Contactanos </a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="Nosotros.html"> Nosotros </a>
-                      </li>
+                        <div class="avatar" style="width: 70px; height: 45px; padding-left: 15px;">
+                          <a href="Ayuda.html">
+                            <img src="../assets/img/img_cont/ayuda1.png" alt="" title="Ayuda">
+                          </a>
+                        </div>
+                      
                     </ul>
                   </div>
                 </div>
-                <!--/ User -->
               </ul>
             </div>
           </nav>
-
           <!-- / Navbar -->
 
           <div class="content-wrapper">
@@ -355,13 +356,16 @@
                       <div class="container">
                         <form method="post" action="#">
                           <div class="form-group">
-                            <label for="exampleInputEmail1"><h3>Observa lo siguiente:</h3></label><br>
+                          <a href="./HTML-EstilosCSS.html">
+                              <img src="../assets/img/img_cont/cerrar1.webp" width="40px" align ="right" title="Salir">
+                            </a>
+                            <label for="exampleInputEmail1"><h4 class="titleh4">Observa lo siguiente:</h4></label><br><br>
                             <h3>
                             <pre class="lang:default decode:true">
 &lt;p ?????=?????:????;">This is a paragraph.&lt;/p&gt;
                             </pre>
                             </h3>
-                            <h3><label for="">Usa el atributo HTML y CSS correctos para establecer el color del párrafo en "azul":</label></h3>
+                            <h4><label for="">Usa el atributo HTML y CSS correctos para establecer el color del párrafo en "azul":</label></h4>
                             <input type="text" name="etiquetah1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Etiqueta">
                           </div>
                           <button type="submit" class="btn btn-primary">Enviar respuesta</button>
@@ -371,9 +375,15 @@
                           if(isset($_POST['etiquetah1'])){
                             $etiquetah1 = $_POST['etiquetah1'];
                             if($etiquetah1 == 'style:"color=blue;"'){
-                              echo "Respuesta correcta";
+                              echo "<center>
+                              <h3>Respuesta correcta</h3><br>
+                              <img src='../assets/img/img_cont/precorec.png' width='200px'>
+                              </center>";
                             }else{
-                              echo "Respuesta incorrecta";
+                              echo "<center>
+                              <h3>Respuesta incorrecta</h3><br>
+                              <img src='../assets/img/img_cont/preincor.png' width='200px'>
+                              </center>";
                             }
                           }
                           ?>
